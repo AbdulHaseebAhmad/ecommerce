@@ -1,0 +1,6 @@
+.sectionOneOuterContainer{
+    height:670px;
+    background-image: url("../Assets/slideShowOne.jpg");
+    background-size: 100%;
+    padding-top: 50px;
+}

@@ -1,0 +1,34 @@
+.topNavOuterContainer{
+    background:#444;
+    color : #fff;
+    height:50px;
+}
+
+.secondaryContiner{
+    width:80%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+
+.leftContainer, .rightContainer{
+    height: 100%;
+    display: flex;
+    gap:20px;
+    display: flex;
+}
+
+.phoneContainer, .emailContainer, .accountContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.textContainer p, .iconHolder{
+    color:white;
+    font-size: 13px;
+}
