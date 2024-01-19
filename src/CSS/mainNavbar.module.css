@@ -1,0 +1,82 @@
+.mainNavbarOuterConatiner{
+    background: rgb(0, 0, 0,0.7);
+    width:80%;
+    height:100px;
+    max-height: max-content;
+    margin: 00px auto 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    color:#fff;
+}
+
+.logoContainer{
+    height:100%;
+    width:150px;
+}
+
+.logoHolder{
+    height: 100%;
+    width:100%;
+    background-image: url("../Assets/DesktopLogo.webp");
+    background-repeat: no-repeat;
+    background-position: 0px 50%;
+}
+
+.navLinksContainer{
+    height:100%;
+    display: flex;
+    align-items: center;
+    gap:22px;
+}
+
+.navLinksContainer a {
+    color:#fff;
+    font-size: 16px;
+    border-right:2px solid white;
+    padding-right: 10px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navLinksContainer a:hover , .navLinksContainer a:active {
+    color:orange;
+    border-right: 2px solid orange;
+    font-weight: 600;
+}
+
+.cartIconContainer{
+    height: 100%;
+    width:150px;
+}
+
+.cartIconHolder{
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1000px) {
+
+    .mainNavbarOuterConatiner{
+        flex-wrap: wrap;
+        height: max-content;
+        
+    }
+
+    .logoContainer{
+        height: 100px;
+    }
+    .cartIconContainer{
+        order:1;
+    }
+
+    .navLinksContainer{
+        order:2;
+        margin:0px auto;
+    }
+}
