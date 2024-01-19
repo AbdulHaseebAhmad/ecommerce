@@ -1,0 +1,123 @@
+.sectionTwoOutterContainer{
+    padding: 30px 0px 40px 0px;}
+
+.titleContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.titleHolder{
+    width:max-content;
+}
+
+.titleHolder h3{
+    width:100%;
+    color:rgb(27, 27, 27);
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1.4px;
+
+}
+
+.titleHolder span{
+    color: #fd7e14;
+}
+
+.textSecondaryContainer{
+    width:40%;
+    margin:0px auto;
+
+}
+
+
+.decoration{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin: 0px auto;
+}
+
+.decoration hr{
+    width:70px;
+    height:0px;
+}
+.paraContainer p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    color: rgb(68, 68, 68);
+}
+
+.cardsOuterContainer{
+    width:90%;
+    margin:50px auto 0px auto;
+    height:max-content;
+    
+}
+
+
+.cardContainer{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.sectionTwoCard{
+    width:380px;
+    height:330px;
+    background:rgb(68, 68, 68,0.07);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 50px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.textContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.bikePriceHolder, .bikeNameHolder{
+    height: max-content;
+    width: max-content;
+}
+
+
+.bikeNameHolder h5{
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    transition: all 0.2s;
+}
+
+.bikeNameHolder:hover h5{
+    color:#fd7e14;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.bikePriceHolder p {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.bikePriceHolder span{
+    color: #fd7e14;
+}

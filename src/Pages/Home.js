@@ -1,6 +1,7 @@
 import React from 'react'
 import TopContactNav from '../Components/TopContactNav';
 import Sectionone from '../Components/Sectionone';
+import SectionTwo from '../Components/SectionTwo';
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <div>
         <TopContactNav/>
         <Sectionone/>
+        <SectionTwo/>
     </div>
   )
 }
