@@ -1,0 +1,151 @@
+.sectionFourTop{
+    width:100%;
+    padding: 50px 0px;
+}
+
+.sectionFourTitleContainer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.titleHolder{
+    width: max-content;
+}
+
+.titleHolder h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(27, 27, 27);
+}
+
+.titleHolder h3 span{
+    color:  #fd7e14;
+}
+
+.textSecondaryContainer{
+    width:40%;
+    margin:0px auto;
+
+}
+
+
+.decoration{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin: 0px auto;
+}
+
+.decoration hr{
+    width:70px;
+    height:0px;
+}
+.paraContainer p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    color: rgb(68, 68, 68);
+}
+
+
+
+
+.cardsOuterContainer{
+    width:90%;
+    margin:50px auto 0px auto;
+    height:max-content;
+    
+}
+
+
+.cardContainer{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sectionFourCard{
+    width:290px;
+    height:290px;
+    background:rgb(68, 68, 68,0.05);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center;
+    background-size: 80%;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.textContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+    padding: 10px 0px;
+    background-color: white;
+    margin-bottom: -30px;
+    position: relative;
+}
+
+.bikePriceHolder, .bikeNameHolder{
+    height: max-content;
+    width: max-content;
+}
+
+
+.bikeNameHolder h5{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    transition: all 0.2s;
+}
+
+.bikeNameHolder:hover h5{
+    color:#fd7e14;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.bikeNameHolder{
+        width:100%;} /**This is done to adjust the cart icon*/
+
+
+.bikePriceHolder p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.bikePriceHolder span{
+    color: #fd7e14;
+}
+
+.cartContainer{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.cartContainer:hover{
+    cursor: pointer;
+    background-color: #fd7e14;
+    color: white;
+    font-size: 12px;
+}
