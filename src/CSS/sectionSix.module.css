@@ -1,0 +1,228 @@
+.sectionSixOutterContainer{
+    padding:30px 0px 50px 0px;
+    background-color: rgb(128,128,128,0.06);
+
+}
+
+.sectionSixTop{
+    width:100%;
+}
+
+.sectionSixTitleContainer{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSixTitleHolder{
+    width:max-content;
+}
+
+.sectionSixTitleHolder h3{
+    font-size: 24px;
+    font-weight: 700;
+    color:rgb(27, 27, 27);
+}
+
+.sectionSixTitleHolder h3 span {
+    color:#fd7e14;
+}
+
+
+.textSecondaryContainer{
+    width:40%;
+    margin:0px auto;
+
+}
+
+
+.decoration{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin: 0px auto;
+}
+
+.decoration hr{
+    width:70px;
+    height:0px;
+}
+.paraContainer p {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.4px;
+    color: rgb(68, 68, 68);
+}
+
+.cardsOutterContainer{
+    margin-top: 30px;
+    width:100%;     
+}
+
+.cardsContainerTop{
+    width:100%;
+}
+
+.navHolder{
+    width:33%;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+}
+
+.navHolder button{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+    color:rgb(119, 119, 119);
+    letter-spacing: 1.2px;
+
+}
+
+.navHolder hr {
+    width:5px;
+    outline: none;
+    background:rgb(27, 27, 27);
+}
+.navHolder > button:hover{
+    color:rgb(27, 27, 27);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.sectionSixCardContainer{
+    width:90%;
+    margin:50px auto 0px auto;
+    height:max-content;
+}
+
+.sectionSixCardHolder{
+    width:100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionSixCard{
+    width:290px;
+    height:320px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center;
+    background-size: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    transition: all 0.5s ease-in-out;
+    border: 0.5px solid rgb(128, 128, 128,0.4);
+    background-color: #fff;
+}
+
+.sectionSixCard:hover{
+    cursor: pointer;
+}
+
+@keyframes showActions {
+    0% {opacity: 0;}
+    25% {opacity: 0.25;}
+    50% { opacity: 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity:1}
+}
+.actionContainer{
+    animation: showActions;
+    animation-duration: 0.4s;
+    width:100%;
+    height:max-content;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.actionHolder{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px auto;
+    height:100%;
+}
+
+.actionHolder > div{
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid grey;
+    color:grey;
+}
+
+.actionHolder > div:hover{
+    background: #fd7e14;
+    color:white;
+    cursor:pointer;
+    border: none;
+    font-weight: 700;
+}
+
+
+.textContainer{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding: 10px 0px;
+    background-color: white;
+    position: relative;
+}
+
+.bikePriceHolder, .bikeNameHolder{
+    height: max-content;
+    width: max-content;
+    text-align: center;
+}
+
+
+.bikeNameHolder h5{
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    transition: all 0.2s;
+}
+
+.bikeNameHolder:hover h5{
+    color:#fd7e14;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.bikeNameHolder{
+        width:100%;} /**This is done to adjust the cart icon*/
+
+
+.bikePriceHolder p {
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+.bikePriceHolder span{
+    color: #fd7e14;
+}
