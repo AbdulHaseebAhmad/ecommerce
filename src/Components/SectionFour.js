@@ -45,17 +45,17 @@ export default function SectionFour() {
 
             <div className={classes.textSecondaryContainer}>
 
-            <div className={classes.decoration}>
-                <hr/>
-                <TungstenOutlinedIcon sx={{width:'30px',height:'30px'}}/>
-                <hr/>                
+                <div className={classes.decoration}>
+                    <hr/>
+                    <TungstenOutlinedIcon sx={{width:'30px',height:'30px'}}/>
+                    <hr/>                
+                </div>
+                <div className={classes.paraContainer}>
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content page when looking at its layout.
+                    </p>
+                </div>
             </div>
-            <div className={classes.paraContainer}>
-                <p>
-                    It is a long established fact that a reader will be distracted by the readable content page when looking at its layout.
-                </p>
-            </div>
-        </div>
 
         <div className={classes.cardsOuterContainer}>
             <div className={classes.cardContainer}>
