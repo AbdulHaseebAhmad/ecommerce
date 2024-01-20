@@ -1,0 +1,135 @@
+.sectionThreeOutterContaainer{
+    margin-top: 100px;
+    height:550px; /*This has a constant height needs to be altered for a mobile view*/
+    background:rgb(68, 68, 68,0.03);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+                
+.sectionThreeTop{
+    width:90%;
+    height:80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sectionThreeTopLeft{
+    height: 125%;
+    width:350px;
+    background-color: #fff;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:30px;
+}
+
+.sectionThreeLeftTopTextContainer{
+    width:100%;
+    height:max-content;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:-4px;
+}
+
+
+
+
+.sectionThreeLeftTopTextContainer h5 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.3px;
+    margin: 0px;
+    color:rgb(68, 68, 68);
+
+}
+
+
+.sectionThreeLeftTopTextContainer h4{
+    font-size: 40px;
+    font-weight: 700;
+    margin:0px;
+    letter-spacing: -0.3px;
+
+}
+
+
+.sectionThreeLeftTopTextContainer h4 span {
+    color: rgb(119, 119, 119);
+}
+
+
+.sectionThreeTopLeftCheckListContainer {
+    width:100%;
+}
+
+.unOrderedList{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.unOrderedList li {
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(27, 27, 27);
+    list-style: none;
+}
+
+.buttonContainer{
+    width:max-content;
+    height: max-content;
+    padding-left: 40px;
+}
+
+.button{
+    width:160px;
+    height:50px;
+    border: none;
+    border-bottom: 2px solid #fd7e14;
+    border-radius: 2px;
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(68, 68, 68,0.08);
+
+}
+
+.button:hover{
+    background-color: #fd7e14;
+    color: #fff;
+    border-bottom: 2px solid white;
+}
+
+
+.sectionThreeTopRight{
+    height:100%;
+    width:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionThreeImageHolder{
+    width:75%;
+    height:90%;
+    background-image: url('https://template.hasthemes.com/rideo/rideo/img/products/u1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.sectionThreeBottom{
+    height:20%;
+    width:100%;
+    background-color: rgb(68, 68, 68,0.08);
+    z-index: -10;
+}
