@@ -1,8 +1,26 @@
-import React from 'react'
+import React,  {useState}  from 'react'
 import TungstenOutlinedIcon from '@mui/icons-material/TungstenOutlined';
 import classes from "../CSS/sectionSeven.module.css";
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
+import SectionSixPortal from '../Portals/SectionSixPortal';
+import ReactDOM from 'react-dom';
+import SectionSevenBigCard from '../Cards/SectionSevenBigCard';
+import SectionSevenSmallCard from '../Cards/SectionSevenSmallCard';
 
 export default function SectionSeven() {
+
+    const [showActions,setShowActions] = useState(null);
+    const [showPortal, setShowPortal] = useState(null);
+
+    const toggleActions = () => {
+        setShowActions(!showActions);}
+    
+    const togglePortal = () => {
+        setShowPortal(!showPortal);
+        setShowActions(false);}
+
   return (
     <div className={classes.sectionSevenOutterContainer}>
         <div className={classes.sectionSevenTop}>
@@ -22,99 +40,32 @@ export default function SectionSeven() {
                 </div>
                 <div className={classes.paraContainer}>
                     <p>
-                        It is a long established fact that a reader will be distracted by the readable content page when looking at its layout.
+                        It is a long established fact that a reader will be distracted by the readable
+                         content page when looking at its layout.
                     </p>
                 </div>
             </div>
 
             <div className={classes.sectionSevenBottom}>
-                <div className={classes.sectionSevenLeft}>
-                    <div className={classes.tag}></div>
-                    <div className={classes.smallCardtextContainer}>
-                        <div className={classes.nameContainer}>
-                            <h3>Mountain Bike</h3>
-                        </div>
-                        <div className={classes.priceContainer}>
-                            <p>Price: </p>
-                            <p>$3200 </p>
-                            <p style={{textDecoration:'line-through'}}>$5000 </p>
-                        </div>
-                    </div>
-                </div>
+
+                
+                <SectionSevenBigCard name="Mountain Bike" price="$3200" imgUrl='https://template.hasthemes.com/rideo/rideo/img/products/ssl.jpg'/>
                 <div className={classes.sectionSevenCenter}>
                     <div>
-                        <div className={classes.centerTopLeft}>
-                            <div className={classes.tag} style={{top:'5px',left:'115px',width:'70px'}}></div>
-                            <div className={classes.smallCardtextContainer}>
-                                <div className={classes.nameContainer}>
-                                    <h3>Mountain Bike</h3>
-                                </div>
-                                <div className={classes.priceContainer}>
-                                    <p>Price: </p>
-                                    <p>$3200 </p>
-                                    <p style={{textDecoration:'line-through'}}>$5000 </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={classes.centerTopRight}>
-                            <div className={classes.tag} style={{top:'5px',left:'115px',width:'70px'}}></div>
-                            <div className={classes.smallCardtextContainer}>
-                                <div className={classes.nameContainer}>
-                                    <h3>Mountain Bike</h3>
-                                </div>
-                                <div className={classes.priceContainer}>
-                                    <p>Price: </p>
-                                    <p>$3200 </p>
-                                    <p style={{textDecoration:'line-through'}}>$5000 </p>
-                                </div>
-                            </div>
-                        </div>
+                        <SectionSevenSmallCard/>
+                        <SectionSevenSmallCard/>
+
                     </div>
                     
                     <div>
-                        <div className={classes.centerBottomLeft}>
-                            <div className={classes.tag} style={{top:'5px',left:'115px',width:'70px'}}></div>
-                            <div className={classes.smallCardtextContainer}>
-                                <div className={classes.nameContainer}>
-                                    <h3>Mountain Bike</h3>
-                                </div>
-                                <div className={classes.priceContainer}>
-                                    <p>Price: </p>
-                                    <p>$3200 </p>
-                                    <p style={{textDecoration:'line-through'}}>$5000 </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={classes.centerBottomRight}>
-                             <div className={classes.tag} style={{top:'5px',left:'115px',width:'70px'}}></div>                        
-                            <div className={classes.smallCardtextContainer}>
-                                <div className={classes.nameContainer}>
-                                    <h3>Mountain Bike</h3>
-                                </div>
-                                <div className={classes.priceContainer}>
-                                    <p>Price: </p>
-                                    <p>$3200 </p>
-                                    <p style={{textDecoration:'line-through'}}>$5000 </p>
-                                </div>
-                            </div>
-                        </div>                        
+                        <SectionSevenSmallCard/>
+                        <SectionSevenSmallCard/>
                     </div>
                 </div>
-                <div className={classes.sectionSevenRight}>
-                    <div className={classes.tag}></div>
-                    <div className={classes.smallCardtextContainer}>
-                        <div className={classes.nameContainer}>
-                            <h3>Mountain Bike</h3>
-                        </div>
-                        <div className={classes.priceContainer}>
-                            <p>Price: </p>
-                            <p>$3200 </p>
-                            <p style={{textDecoration:'line-through'}}>$5000 </p>
-                        </div>
-                    </div>
-                </div>
+                <SectionSevenBigCard name="Mountain Bike" price="$3200" imgUrl='https://template.hasthemes.com/rideo/rideo/img/products/ssr.jpg'/>
             </div>
         </div>
+        
      </div>
   )
 }

@@ -69,9 +69,12 @@
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:20px;
     padding-bottom:5px;
     position:relative;
+    cursor: pointer;
 }
 
 .tag{
@@ -179,8 +182,86 @@
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap:20px;
     padding-bottom:5px;
     position:relative;
+    cursor: pointer;
 
 }
+
+
+@keyframes showActions {
+    0% {opacity: 0;}
+    25% {opacity: 0.25;}
+    50% { opacity: 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity:1}
+}
+.actionContainer{
+    animation: showActions;
+    animation-duration: 0.4s;
+    width:70%;
+    height:max-content;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: all 0.5s ease-in-out;
+    margin:0px auto;
+}
+
+.actionHolder{
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px auto;
+    height:100%;
+}
+
+
+.actionHolder > div{
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid orange;
+    color:#fd7e14;;
+}
+
+.actionHolder > div:hover{
+    background: #fd7e14;
+    color:white;
+    cursor:pointer;
+    border:1px solid #fd7e14;
+    font-weight: 700;
+}
+
+@keyframes showPortal {
+    0% {opacity:0}
+    25% {opacity:0.25}
+    50% {opacity: 0.5}
+    75% {opacity: 0.75}
+    100% {opacity: 1}
+}
+
+.portalOutterContainerSectionSeven{
+    animation: showPortal 0.3s ease-in-out ;
+    position:absolute;
+    width:95%;
+    height:580px;
+    border:1px solid #fd7e14;
+    z-index: 100;
+    background:white;
+    left:2%;
+    right:2%;
+    bottom:-552.1%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;;
+}
+
