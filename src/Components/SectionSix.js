@@ -1,35 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import classes from "../CSS/sectionSix.module.css";
 import TungstenOutlinedIcon from '@mui/icons-material/TungstenOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import SectionSixCard from '../Cards/SectionSixCard';
-import SectionSixPortal from '../Portals/SectionSixPortal';
-import ReactDOM from 'react-dom';
+import productsData from "../Data/SectionSixProductsData.json";
+
 
 
 export default function SectionSix() {
 
-    const arrayOfHelmets = [
-        {
-            name:'Mount XNX J058 FT',
-            price:"$730",
-            imgUrl:'https://template.hasthemes.com/rideo/rideo/img/products/b1.png'
-        }, 
-        {
-            name:'Mount PIL K069 ST',
-            price:"$1230",
-            imgUrl:'https://template.hasthemes.com/rideo/rideo/img/products/b1.png'
-        }, 
-        {
-            name:'Mount POW C058 FG',
-            price:"$400",
-            imgUrl:'https://template.hasthemes.com/rideo/rideo/img/products/b1.png'
-        },   
-        {
-            name:'Mount XNX J058 FT',
-            price:"$730",
-            imgUrl:'https://template.hasthemes.com/rideo/rideo/img/products/b1.png'
-        }, ]
+    const {products} = productsData;
+    const [typeOfProduct, setType] = useState("bikes");
+        
+    const toggleType = (event) => {
+        setType(event.target.value);}
 
 
 
@@ -55,7 +39,8 @@ export default function SectionSix() {
                 </div>
                 <div className={classes.paraContainer}>
                     <p>
-                        It is a long established fact that a reader will be distracted by the readable content page when looking at its layout.
+                        It is a long established fact that a reader will be distracted by the 
+                        readable content page when looking at its layout.
                     </p>
                 </div>
             </div>
@@ -65,29 +50,26 @@ export default function SectionSix() {
         <div className={classes.cardsOutterContainer}>
             <div className={classes.cardsContainerTop}>
                 <div className={classes.navHolder}>
-                    <button>BIKES</button>
+                    <button onClick={toggleType} value='bikes' style={{color:typeOfProduct === 'bikes' && "black"}}>BIKES</button>
                     <hr/>
-                    <button>PARTS</button>
+                    <button onClick={toggleType} value='parts' style={{color:typeOfProduct === 'parts' && "black"}}>PARTS</button>
                     <hr/>
-                    <button>MAN</button>
+                    <button onClick={toggleType} value='men' style={{color:typeOfProduct === 'men' && "black"}}>MAN</button>
                     <hr/>
-                    <button>WOMEN</button>
+                    <button onClick={toggleType} value='women' style={{color:typeOfProduct === 'women' && "black"}}>WOMEN</button>
                     <hr/>
-                    <button>ACCESSORIES</button>
+                    <button onClick={toggleType} value='accessories' style={{color:typeOfProduct === 'accessories' && "black"}}>ACCESSORIES</button>
                 </div>
             </div>
         </div>
 
         <div className={classes.sectionSixCardContainer}>
             <div className={classes.sectionSixCardHolder}>
-                {arrayOfHelmets.map((eachBike)=>{return <SectionSixCard name={eachBike.name} price={eachBike.price} imgUrl={eachBike.imgUrl} key={eachBike.price}/> })}
+                {products[typeOfProduct].map((eachBike)=>{return <SectionSixCard name={eachBike.name} price={eachBike.price} imgUrl={eachBike.imgUrl} key={eachBike.price}/> })}
             </div>
         </div>
 
-        {ReactDOM.createPortal(
-        <SectionSixPortal />,
-        document.getElementById('root') 
-      )}
+       
     </div>
   )
 }
