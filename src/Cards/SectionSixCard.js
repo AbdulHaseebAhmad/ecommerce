@@ -3,14 +3,22 @@ import classes from "../CSS/sectionSix.module.css";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
-
+import SectionSixPortal from '../Portals/SectionSixPortal';
+import ReactDOM from 'react-dom';
 
 export default function SectionSixCard({name,price,imgUrl}) {
 
-  const [showActions,setShowActions] = useState(null);
+  const [showActions,setShowActions] = useState(false);
+  const [showPortal, setShowPortal] = useState(null);
 
   const toggleActions = () => {
     setShowActions(!showActions);
+  }
+
+  const togglePortal = () => {
+    setShowPortal(!showPortal);
+    setShowActions(false);
+
   }
 
   return (
@@ -20,13 +28,13 @@ export default function SectionSixCard({name,price,imgUrl}) {
       showActions && <div className={classes.actionContainer}>
           <div className={classes.actionHolder}>
               <div className={classes.addToCart}>
-                <VisibilityOutlinedIcon/>
+                <ShoppingCartOutlinedIcon/>
               </div>
               <div className={classes.addToFavourites}>
                 <FavoriteBorderOutlinedIcon/>
               </div>
-              <div className={classes.viewProduct}>
-                <ShoppingCartOutlinedIcon/>
+              <div className={classes.viewProduct} onClick={togglePortal}>
+                <VisibilityOutlinedIcon/>
               </div>
           </div>
     </div>
@@ -40,7 +48,10 @@ export default function SectionSixCard({name,price,imgUrl}) {
             <p>Price: <span>  {price}</span> <span style={{textDecoration:'line-through',color:'black'}}>$1500</span></p>
         </div>
     </div>
-
+    {showPortal && ReactDOM.createPortal(
+        <SectionSixPortal closePortal={togglePortal}/>,
+        document.getElementById("portal-root") 
+      )}
 </div>
   )
 }

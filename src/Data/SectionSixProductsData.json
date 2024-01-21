@@ -1,0 +1,123 @@
+{
+    "products": {
+          "bikes":[
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img3.sportler.com/image/product/cube/stereo_one55_c_62_slx_29_-_trail_mountainbike/_d1740_cube_stereo_one55_c_62_slx_29_-_trail_mountainbike_11396796_940883.jpg"
+            }, 
+            {
+                "name":"Mount PIL K069 ST",
+                "price":"$1230",
+                "imgUrl":"https://img4.sportler.com/image/product/liv/intrigue_2/_d1740_liv_intrigue_2_2231650_989069.jpg"
+            }, 
+            {
+                "name":"Mount POW C058 FG",
+                "price":"$400",
+                "imgUrl":"https://img3.sportler.com/image/product/cube/acid260_disc_-_mtb_cross_country_-_kinder/_d1740_cube_acid260_disc_-_mtb_cross_country_-_kinder_2241626_913443.jpg"
+            },   
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img1.sportler.com/image/product/cube/aim_slx_-_mtb_cross_country/_d1740_cube_aim_slx_-_mtb_cross_country_2242303_914471.jpg"
+            }
+          ],
+          "parts":[
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img0.sportler.com/image/product/cube/3116_-_pulsante_per_coperchio_batteria/_c510_cube_3116_-_pulsante_per_coperchio_batteria_11512141_1038535.jpg"
+            }, 
+            {
+                "name":"Mount PIL K069 ST",
+                "price":"$1230",
+                "imgUrl":"https://img1.sportler.com/image/product/cube/3117_-_dado_per_pulsante/_c510_cube_3117_-_dado_per_pulsante_11512142_1038536.jpg"
+            }, 
+            {
+                "name":"Mount POW C058 FG",
+                "price":"$400",
+                "imgUrl":"https://img1.sportler.com/image/product/campagnolo/super_record_wireless_-_guarnitura/_c510_campagnolo_super_record_wireless_-_guarnitura_11500872_1032806.jpg"
+            },   
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img1.sportler.com/image/product/campagnolo/ergopower_ekar_1x13_dx_-_leva_freno_cambio_con_pinza/_c510_campagnolo_ergopower_ekar_1x13_dx_-_leva_freno_cambio_con_pinza_11500876_1032796.jpg"
+            }
+          ]
+          ,
+          "men":[
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img1.sportler.com/image/product/trek/top_fuel_9_8_gx_axs_-_mtb_trail/_c510_trek_top_fuel_9_8_gx_axs_-_mtb_trail_11441312_990401.jpg"
+            }, 
+            {
+                "name":"Mount PIL K069 ST",
+                "price":"$1230",
+                "imgUrl":"https://img2.sportler.com/image/product/scott/spark_930_-_mountainbike_trail/_d1740_scott_spark_930_-_mountainbike_trail_11396767_940997.jpg"
+            }, 
+            {
+                "name":"Mount POW C058 FG",
+                "price":"$400",
+                "imgUrl":"https://img2.sportler.com/image/product/cube/aim_-_mtb_-_cross_country/_d191_cube_aim_-_mtb_-_cross_country_11300656_878372.jpg"
+            },   
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img4.sportler.com/image/product/cube/analog_2023_-_mtb_cross_country_-_uomo/_c510_cube_analog_2023_-_mtb_cross_country_-_uomo_11300692_878589.jpg"
+
+            }
+          ]
+          ,
+        "women":[
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img0.sportler.com/image/product/trek/fuel_ex_7_deore_xt_bk/_c510_trek_fuel_ex_7_deore_xt_bk_2250333_909990.jpg"
+            }, 
+            {
+                "name":"Mount PIL K069 ST",
+                "price":"$1230",
+                "imgUrl":"https://img4.sportler.com/image/product/cube/access_ws_c_62_pro_2022/_c510_cube_access_ws_c_62_pro_2022_2211572_763199.jpg"
+            }, 
+            {
+                "name":"Mount POW C058 FG",
+                "price":"$400",
+                "imgUrl":"https://img2.sportler.com/image/product/scott/contessa_spark_920_-_trail_mountainbike_-_donna/_c510_scott_contessa_spark_920_-_trail_mountainbike_-_donna_11401671_950647.jpg"
+            },   
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img1.sportler.com/image/product/scott/genius_st_910_-_trail_mountainbike/_c510_scott_genius_st_910_-_trail_mountainbike_11395951_939336.jpg"
+            }
+          ]
+          ,
+        "accessories":[
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img1.sportler.com/image/product/lezyne/macro_drive_1400_front/_c510_lezyne_macro_drive_1400_front_2288714_1038181.jpg"
+            }, 
+            {
+                "name":"Mount PIL K069 ST",
+                "price":"$1230",
+                "imgUrl":"https://img1.sportler.com/image/product/lezyne/strip_drive_pro_alert_400_rea/_c510_lezyne_strip_drive_pro_alert_400_rea_2288713_1035911.jpg"
+            }, 
+            {
+                "name":"Mount POW C058 FG",
+                "price":"$400",
+                "imgUrl":"https://img0.sportler.com/image/product/supernova/mini_2_pro_-_luce_anteriore/_c510_supernova_mini_2_pro_-_luce_anteriore_11473875_1012400.jpg"
+            },   
+            {
+                "name":"Mount XNX J058 FT",
+                "price":"$730",
+                "imgUrl":"https://img3.sportler.com/image/product/scott/snapit_2_0_-_portapacchi/_c510_scott_snapit_2_0_-_portapacchi_11472681_1012358.jpg"
+            }
+          ]
+          
+
+    }
+  }
+
+
+

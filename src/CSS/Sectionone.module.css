@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 30px;
-    z-index:-10;
 }
 
 .sectionOneTextContainer{
@@ -46,10 +45,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 1.9;
-    box-shadow: 0px 0.25px 5px 0px inset coral;
     letter-spacing: 1.4px;
-
-
 }
 
 .buttonContainer{
@@ -65,16 +61,17 @@
     border: none;
     border-bottom: 2px solid #fd7e14;
     border-radius: 2px;
-    cursor:pointer;
     font-weight: 500;
     font-size: 18px;
     outline: none;
-    transition: all 0.3s ease-in-out;
-
+    transition: all 0.2s ease-in-out;
+    background-color: #fff;
 }
 
 .button:hover{
     background-color: #fd7e14;
     color: #fff;
     border-bottom: 2px solid white;
+    cursor:pointer;
+
 }

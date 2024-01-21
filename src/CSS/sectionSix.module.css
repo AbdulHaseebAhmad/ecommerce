@@ -88,15 +88,17 @@
 
 }
 
-.navHolder hr {
-    width:5px;
-    outline: none;
-    background:rgb(27, 27, 27);
-}
 .navHolder > button:hover{
     color:rgb(27, 27, 27);
     font-weight: 700;
     cursor: pointer;
+}
+
+
+.navHolder hr {
+    width:5px;
+    outline: none;
+    background:rgb(27, 27, 27);
 }
 
 .sectionSixCardContainer{
@@ -159,6 +161,7 @@
     margin:0px auto;
     height:100%;
 }
+
 
 .actionHolder > div{
     width:40px;
@@ -227,17 +230,25 @@
     color: #fd7e14;
 }
 
+@keyframes showPortal {
+    0% {opacity:0}
+    25% {opacity:0.25}
+    50% {opacity: 0.5}
+    75% {opacity: 0.75}
+    100% {opacity: 1}
+}
 
 .portalOutterContainer{
+    animation: showPortal 0.3s ease-in-out ;
     position:absolute;
     width:90%;
-    height:620px;
-    border:1px solid green;
+    height:580px;
+    border:1px solid #fd7e14;
     z-index: 100;
     background:white;
     left:5%;
     right:5%;
-    bottom:-429%;
+    bottom:-424.1%;
 
     display: flex;
     justify-content: space-between;
@@ -256,7 +267,15 @@
     background-color: rgb(128,128,128,0.06);
     width:100%;
     height:90%;
-    border:1px solid red;
+}
+
+.ImageHolder{
+    width:100%;
+    height:100%;
+    background-image: url('https://template.hasthemes.com/rideo/rideo/img/products/u1.png');
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
 }
 .portalRight{
     width:50%;
@@ -264,7 +283,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap:50px;
+    gap:35px;
 }
 
 .portalTop, .portalCenter, .portalBottom{
@@ -339,4 +358,29 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 21px;
+}
+
+.actionHolder .buttonContainer{
+    width:100px;
+    height:40px;
+}
+
+.buttonContainer button{
+    width:100%;
+    height:100%;
+    background: white;
+    border:none;
+    outline: none;
+    font-size: 23px;
+    font-weight: 500;
+    color:#fd7e14;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid #fd7e14;
+}
+
+.buttonContainer button:hover{
+    background-color: #fd7e14;
+    color:white;
+    cursor: pointer;
+    border-bottom: 2px solid white;
 }

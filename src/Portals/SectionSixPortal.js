@@ -1,7 +1,13 @@
 import React from 'react'
 import classes from "../CSS/sectionSix.module.css";
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
-export default function SectionSixPortal() {
+
+export default function SectionSixPortal({closePortal}) {
+    const togglePortal = () => {
+        closePortal(false);
+    }
   return (
     <div className={classes.portalOutterContainer}>
 
@@ -55,6 +61,21 @@ export default function SectionSixPortal() {
                             <li>Mountain</li>
                             <li>Ride</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+
+{/**The actionContainer below is using common classes with the actionContainer in the card component be care full while making changes */}
+            <div className={classes.actionContainer}>
+                <div className={classes.actionHolder} style={{ margin:'0px',justifyContent:'flex-start', gap:'20px'}}>
+                    <div className={classes.addToCart}>
+                        <ShoppingCartOutlinedIcon/>
+                    </div>
+                    <div className={classes.addToFavourites}>
+                        <FavoriteBorderOutlinedIcon/>
+                    </div>
+                    <div className={classes.buttonContainer}>
+                        <button onClick={togglePortal}>Close</button>
                     </div>
                 </div>
             </div>
