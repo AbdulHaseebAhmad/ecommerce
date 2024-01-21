@@ -1,7 +1,7 @@
 .sectionSixOutterContainer{
     padding:30px 0px 50px 0px;
     background-color: rgb(128,128,128,0.06);
-
+    position: relative;
 }
 
 .sectionSixTop{
@@ -174,7 +174,7 @@
     background: #fd7e14;
     color:white;
     cursor:pointer;
-    border: none;
+    border:1px solid #fd7e14;
     font-weight: 700;
 }
 
@@ -225,4 +225,118 @@
 
 .bikePriceHolder span{
     color: #fd7e14;
+}
+
+
+.portalOutterContainer{
+    position:absolute;
+    width:90%;
+    height:620px;
+    border:1px solid green;
+    z-index: 100;
+    background:white;
+    left:5%;
+    right:5%;
+    bottom:-429%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 20px;;
+}
+
+.portalLeft{
+    box-sizing: border-box;
+    width:50%;
+    height:90%;
+    padding:20px;
+}
+
+.imgContainer{
+    background-color: rgb(128,128,128,0.06);
+    width:100%;
+    height:90%;
+    border:1px solid red;
+}
+.portalRight{
+    width:50%;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap:50px;
+}
+
+.portalTop, .portalCenter, .portalBottom{
+    width: 100%;
+}
+
+.textHolder, .textHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap:10px;
+    
+}
+.titleContainer, .priceContainer{
+    width: max-content;
+}
+
+.titleContainer h1{
+    font-size: 30px;
+    font-weight: 600;
+    color:rgb(85,85,85);
+    margin: 0px;
+    letter-spacing: 1.1px;
+}
+
+
+.priceContainer p{
+    font-size: 32px;
+    font-weight: 700;
+    color:black;
+    margin: 0px;
+    letter-spacing: 1.1px;
+}
+
+.descriptionContainer{
+    width:85%;
+}
+
+.descriptionContainer p{
+    font-size:14px ;
+    font-weight: 400;
+    line-height: 24px ;
+    color:rgb(85,85,85);
+    letter-spacing: 1px;
+}
+
+.bottomTextContainer{
+    width: 100%;
+}
+
+.categoriesContainer, .tagContainers{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+}
+.categoriesContainer p, .tagContainers p{
+    font-size: 13px;
+    font-weight: 500;
+    color:rgb(27,27,27);
+    line-height: 21px;
+    min-width:100px;
+}
+
+.categoriesContainer ul, .tagContainers ul{
+    display: flex;
+    gap:10px;
+    list-style: none;
+}
+
+.categoriesContainer ul li, .tagContainers ul li{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
 }
