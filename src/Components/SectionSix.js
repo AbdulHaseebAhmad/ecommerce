@@ -3,6 +3,9 @@ import classes from "../CSS/sectionSix.module.css";
 import TungstenOutlinedIcon from '@mui/icons-material/TungstenOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import SectionSixCard from '../Cards/SectionSixCard';
+import SectionSixPortal from '../Portals/SectionSixPortal';
+import ReactDOM from 'react-dom';
+
 
 export default function SectionSix() {
 
@@ -80,6 +83,11 @@ export default function SectionSix() {
                 {arrayOfHelmets.map((eachBike)=>{return <SectionSixCard name={eachBike.name} price={eachBike.price} imgUrl={eachBike.imgUrl} key={eachBike.price}/> })}
             </div>
         </div>
+
+        {ReactDOM.createPortal(
+        <SectionSixPortal />,
+        document.getElementById('root') 
+      )}
     </div>
   )
 }
