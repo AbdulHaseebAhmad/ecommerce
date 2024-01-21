@@ -4,12 +4,12 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 
-export default function SectionSixPortal({name,imgUrl,price,closePortal}) {
+export default function SectionSixPortal({name,imgUrl,price,closePortal,customClass}) {
     const togglePortal = () => {
         closePortal(false);
     }
   return (
-    <div className={classes.portalOutterContainer}>
+    <div className={`${customClass}`}>
 
         <div className={classes.portalLeft}>
             <div className={classes.imgContainer}>
