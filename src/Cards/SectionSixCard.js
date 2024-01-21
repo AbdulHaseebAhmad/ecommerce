@@ -49,7 +49,7 @@ export default function SectionSixCard({name,price,imgUrl}) {
         </div>
     </div>
     {showPortal && ReactDOM.createPortal(
-        <SectionSixPortal closePortal={togglePortal}/>,
+        <SectionSixPortal closePortal={togglePortal} name={name} price={price} imgUrl={imgUrl}/>,
         document.getElementById("portal-root") 
       )}
 </div>
