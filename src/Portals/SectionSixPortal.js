@@ -4,7 +4,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 
-export default function SectionSixPortal({closePortal}) {
+export default function SectionSixPortal({name,imgUrl,price,closePortal}) {
     const togglePortal = () => {
         closePortal(false);
     }
@@ -13,19 +13,19 @@ export default function SectionSixPortal({closePortal}) {
 
         <div className={classes.portalLeft}>
             <div className={classes.imgContainer}>
-                <div className={classes.ImageHolder}></div>
+                <div className={classes.ImageHolder} style={{backgroundImage:`url(${imgUrl})`}}></div>
 
-                </div>
+            </div>
         </div>
 
         <div className={classes.portalRight}>
             <div className={classes.portalTop}>
                 <div className={classes.textHolder}>
                     <div className={classes.titleContainer}>
-                        <h1>GT Sensor Carbon Jenson</h1>
+                        <h1>{name}</h1>
                     </div>
                     <div className={classes.priceContainer}>
-                        <p>$1700.00</p>
+                        <p>{price}</p>
                     </div>
                 </div>
 
