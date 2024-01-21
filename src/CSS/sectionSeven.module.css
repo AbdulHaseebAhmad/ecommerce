@@ -87,7 +87,7 @@
     left:20px;
 }
 .sectionSevenCenter{
-    height:75%;
+    height:80%;
     width:420px;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@
 }   
 
 .sectionSevenCenter > div > div{
-    width:190px;
+    width:200px;
     height:100%;
     background-color: rgb(128,128,128,0.1);
     background-image: url('https://template.hasthemes.com/rideo/rideo/img/products/ss.jpg');
