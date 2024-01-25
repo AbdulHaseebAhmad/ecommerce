@@ -1,40 +1,1204 @@
 
 {
 	"productOne":{
-        "name": "Product Name",
-        "img": "https://example.com/product-image.jpg",
-        "price": "$100.00",
-        "description": "Product description goes here.",
-        "color": "Red",
+      "id":"01",
+        "name": "Hybrid Commuter",
+        "img": "https://example.com/hybrid-commuter.jpg",
+        "price": "$900.00",
+        "description": "Versatile bike for both commuting and light off-road trails.",
+        "color": "Green",
         "size": "Medium",
-        "brand": "Brand Name",
-        "quantity": "10",
-        "categories": ["Category1", "Category2"],
-        "tags": ["Tag1", "Tag2", "Tag3"],
+        "brand": "CommuteRide",
+        "quantity": "25",
+        "categories": ["Hybrid Bikes"],
+        "tags": ["Versatile", "Commute", "Light Trails"],
         "reviews": {
-            "averageRating": 4.5,
-            "totalReviews": 50,
-            "customerReviews": [
+          "averageRating": 4.3,
+          "totalReviews": 35,
+          "customerReviews": [
             {
-                "username": "User1",
-                "rating": 5,
-                "comment": "Great product! Highly recommended."
+              "username": "DailyCommuter",
+              "rating": 4,
+              "comment": "Great for daily commuting and occasional trails."
             },
             {
-                "username": "User2",
-                "rating": 4,
-                "comment": "Good value for money."
+              "username": "TrailExplorer",
+              "rating": 4,
+              "comment": "Handles light off-road paths well."
             }
-            ]
-        },
+          ]
+        }
+      ,
         "productSpecifications": {
-            "frame": "Frame Material",
+            "fork": "RockShox XC30",
+            "rearShock": "Fox Float",
+            "headset": "Cane Creek 10",
+            "shifters": "SRAM NX",
+            "frontDerailleur": "Shimano SLX",
+            "bikeType": "Mountain",
+            "frameMaterial": "Aluminum",
+            "bikeSize": "Medium",
+            "wheelSize": "27.5-inch",
+            "brakeType": "Hydraulic disc brakes",
+            "gears": "12-speed",
+            "suspensionType": "Full suspension",
+            "brand": "Trailblazer",
+            "priceRange": {
+              "min": 800,
+              "max": 1500
+            },
+            "color": "Green",
+            "customerRatings": "5-star",
+            "availability": "In stock",
+            "newArrivals": false,
+            "discountedItems": true,
+            "terrain": "Off-road",
+            "gender": "Unisex",
+            "accessories": ["Helmet", "Lights", "Lock"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Standard", "Expedited"]
+          }
+          
+    },
+    "productTwo":{
+        "id":"02",
+        "name": "Foldable Explorer",
+        "img": "https://example.com/foldable-explorer.jpg",
+        "price": "$1300.00",
+        "description": "A foldable bike for convenient storage and travel.",
+        "color": "Purple",
+        "size": "Medium",
+        "brand": "FoldNGo",
+        "quantity": "15",
+        "categories": ["Foldable Bikes"],
+        "tags": ["Foldable", "Convenient", "Travel"],
+        "reviews": {
+          "averageRating": 4.5,
+          "totalReviews": 25,
+          "customerReviews": [
+            {
+              "username": "FoldableFanatic",
+              "rating": 5,
+              "comment": "Great for commuting and easy to store."
+            },
+            {
+              "username": "Traveler123",
+              "rating": 4,
+              "comment": "Convenient for travel and storage."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
+            "fork": "Suntour XCR",
+            "rearShock": "RockShox Deluxe",
+            "headset": "FSA Orbit",
+            "shifters": "Shimano Deore",
+            "frontDerailleur": "Shimano XT",
+            "bikeType": "Road",
+            "frameMaterial": "Carbon Fiber",
+            "bikeSize": "Small",
+            "wheelSize": "26-inch",
+            "brakeType": "Rim brakes",
+            "gears": "18-speed",
+            "suspensionType": "Rigid",
+            "brand": "Velocity",
+            "priceRange": {
+              "min": 1200,
+              "max": 2500
+            },
+            "color": "Red",
+            "customerRatings": "4-star",
+            "availability": "Out of stock",
+            "newArrivals": true,
+            "discountedItems": false,
+            "terrain": "Urban",
+            "gender": "Men's",
+            "accessories": ["Lights", "Lock"],
+            "weight": "Light",
+            "foldable": true,
+            "shippingOptions": ["Standard", "Free"]
+          }
+          
+    },
+    "productThree":{
+        "id":"03",
+        "name": "Lightweight Racer",
+        "img": "https://example.com/lightweight-racer.jpg",
+        "price": "$1800.00",
+        "description": "An aerodynamic road bike designed for speed enthusiasts.",
+        "color": "Orange",
+        "size": "Large",
+        "brand": "Velocity",
+        "quantity": "10",
+        "categories": ["Road Bikes"],
+        "tags": ["Aerodynamic", "Speed", "Performance"],
+        "reviews": {
+          "averageRating": 4.7,
+          "totalReviews": 40,
+          "customerReviews": [
+            {
+              "username": "SpeedDemon",
+              "rating": 5,
+              "comment": "Unmatched speed and sleek design."
+            },
+            {
+              "username": "RoadRacer123",
+              "rating": 4,
+              "comment": "Handles like a dream on the open road."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
+            "fork": "Manitou Markhor",
+            "rearShock": "Fox Float DPS",
+            "headset": "Cane Creek 40",
+            "shifters": "Shimano SLX",
+            "frontDerailleur": "Shimano Deore",
+            "bikeType": "Hybrid",
+            "frameMaterial": "Steel",
+            "bikeSize": "Large",
+            "wheelSize": "29-inch",
+            "brakeType": "Mechanical disc brakes",
+            "gears": "8-speed",
+            "suspensionType": "Hardtail",
+            "brand": "CommuteRide",
+            "priceRange": {
+              "min": 500,
+              "max": 1000
+            },
+            "color": "Blue",
+            "customerRatings": "4-star",
+            "availability": "In stock",
+            "newArrivals": false,
+            "discountedItems": false,
+            "terrain": "Urban",
+            "gender": "Unisex",
+            "accessories": ["Helmets", "Lights", "Locks"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Expedited"]
+          }
+          
+    },
+    "productFour":{
+        "id":"04",
+        "name": "Steel Commuter",
+        "img": "https://example.com/steel-commuter.jpg",
+        "price": "$500.00",
+        "description": "A reliable and durable commuter bike with a steel frame.",
+        "color": "Yellow",
+        "size": "Small",
+        "brand": "CityCruise",
+        "quantity": "30",
+        "categories": ["Commuter Bikes"],
+        "tags": ["Reliable", "Durable", "Steel Frame"],
+        "reviews": {
+          "averageRating": 4.0,
+          "totalReviews": 20,
+          "customerReviews": [
+            {
+              "username": "SteelCommute",
+              "rating": 4,
+              "comment": "Solid build and comfortable for daily commuting."
+            },
+            {
+              "username": "CityExplorer",
+              "rating": 3,
+              "comment": "Decent bike for city commuting."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
+            "fork": "RST Omega",
+            "rearShock": "X-Fusion O2 Pro",
+            "headset": "FSA No.42",
+            "shifters": "SRAM GX",
+            "frontDerailleur": "SRAM X5",
+            "bikeType": "BMX",
+            "frameMaterial": "Chromoly",
+            "bikeSize": "Extra Large",
+            "wheelSize": "20-inch",
+            "brakeType": "U-brakes",
+            "gears": "Single speed",
+            "suspensionType": "Rigid",
+            "brand": "StreetShredder",
+            "priceRange": {
+              "min": 300,
+              "max": 600
+            },
+            "color": "Black",
+            "customerRatings": "5-star",
+            "availability": "In stock",
+            "newArrivals": true,
+            "discountedItems": true,
+            "terrain": "Urban",
+            "gender": "Unisex",
+            "accessories": ["Lights", "Lock"],
+            "weight": "Light",
+            "foldable": false,
+            "shippingOptions": ["Standard"]
+          }
+          
+    },
+    "productFive":{
+        "id":"05",
+        "name": "BMX Master",
+        "img": "https://example.com/bmx-master.jpg",
+        "price": "$400.00",
+        "description": "A sturdy and stylish BMX bike for tricks and stunts.",
+        "color": "Black",
+        "size": "Extra Large",
+        "brand": "StreetShredder",
+        "quantity": "15",
+        "categories": ["BMX Bikes"],
+        "tags": ["Sturdy", "Stylish", "Tricks"],
+        "reviews": {
+          "averageRating": 4.5,
+          "totalReviews": 25,
+          "customerReviews": [
+            {
+              "username": "BMXMaster123",
+              "rating": 5,
+              "comment": "Excellent for tricks and stunts."
+            },
+            {
+              "username": "StylishRider",
+              "rating": 4,
+              "comment": "Looks cool and performs well."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
             "fork": "Fork Type",
             "rearShock": "Rear Shock Type",
             "headset": "Headset Type",
             "shifters": "Shifters Type",
-            "frontDerailleur": "Front Derailleur Type"
+            "frontDerailleur": "Front Derailleur Type",
+            "bikeType": "RandomValue1",
+            "frameMaterial": "RandomValue2",
+            "bikeSize": "RandomValue3",
+            "wheelSize": "RandomValue4",
+            "brakeType": "RandomValue5",
+            "gears": "RandomValue6",
+            "suspensionType": "RandomValue7",
+            "brand": "RandomValue8",
+            "priceRange": {
+                "min": "RandomValue9",
+                "max": "RandomValue10"
+            },
+            "color": "RandomValue11",
+            "customerRatings": "RandomValue12",
+            "availability": "RandomValue13",
+            "newArrivals": "RandomValue14",
+            "discountedItems": "RandomValue15",
+            "terrain": "RandomValue16",
+            "gender": "RandomValue17",
+            "accessories": "RandomValue18",
+            "weight": "RandomValue19",
+            "foldable": "RandomValue20",
+            "shippingOptions": "RandomValue21"
         }
-    }
+    },
+    "productSix":{
+        "id":"06",
+        "name": "Hybrid Commuter",
+        "img": "https://example.com/hybrid-commuter.jpg",
+        "price": "$900.00",
+        "description": "Versatile bike for both commuting and light off-road trails.",
+        "color": "Green",
+        "size": "Medium",
+        "brand": "CommuteRide",
+        "quantity": "25",
+        "categories": ["Hybrid Bikes"],
+        "tags": ["Versatile", "Commute", "Light Trails"],
+        "reviews": {
+          "averageRating": 4.3,
+          "totalReviews": 35,
+          "customerReviews": [
+            {
+              "username": "DailyCommuter",
+              "rating": 4,
+              "comment": "Great for daily commuting and occasional trails."
+            },
+            {
+              "username": "TrailExplorer",
+              "rating": 4,
+              "comment": "Handles light off-road paths well."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
+            "fork": "Fox 32 Float",
+            "rearShock": "RockShox Monarch RL",
+            "headset": "Cane Creek 40",
+            "shifters": "SRAM GX Eagle",
+            "frontDerailleur": "N/A",
+            "bikeType": "Mountain",
+            "frameMaterial": "Carbon Fiber",
+            "bikeSize": "Large",
+            "wheelSize": "29-inch",
+            "brakeType": "Hydraulic disc brakes",
+            "gears": "12-speed",
+            "suspensionType": "Full suspension",
+            "brand": "TrailMaster",
+            "priceRange": {
+              "min": 1500,
+              "max": 3000
+            },
+            "color": "Black",
+            "customerRatings": "4-star",
+            "availability": "In stock",
+            "newArrivals": true,
+            "discountedItems": false,
+            "terrain": "Off-road",
+            "gender": "Men's",
+            "accessories": ["Helmet", "Lights", "Lock"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Standard", "Expedited"]
+          }
+          
+    },
+    "productSeven":{
+        "id":"07",
+        "name": "Electric Explorer",
+        "img": "https://example.com/electric-explorer.jpg",
+        "price": "$2500.00",
+        "description": "An electric bike for efficient and eco-friendly rides.",
+        "color": "White",
+        "size": "Medium",
+        "brand": "EcoCruiser",
+        "quantity": "8",
+        "categories": ["Electric Bikes"],
+        "tags": ["Electric", "Eco-Friendly", "Efficient"],
+        "reviews": {
+          "averageRating": 4.7,
+          "totalReviews": 60,
+          "customerReviews": [
+            {
+              "username": "EcoRider",
+              "rating": 5,
+              "comment": "Love the electric assist for longer rides."
+            },
+            {
+              "username": "GreenCommute",
+              "rating": 5,
+              "comment": "Environmentally conscious and practical."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
+            "fork": "RockShox Reba RL",
+            "rearShock": "Fox Float DPS",
+            "headset": "FSA Orbit ZS",
+            "shifters": "Shimano XT",
+            "frontDerailleur": "Shimano SLX",
+            "bikeType": "Road",
+            "frameMaterial": "Aluminum",
+            "bikeSize": "Medium",
+            "wheelSize": "28-inch",
+            "brakeType": "Disc brakes",
+            "gears": "20-speed",
+            "suspensionType": "Rigid",
+            "brand": "UrbanCruiser",
+            "priceRange": {
+              "min": 1000,
+              "max": 2000
+            },
+            "color": "Silver",
+            "customerRatings": "4-star",
+            "availability": "Out of stock",
+            "newArrivals": false,
+            "discountedItems": true,
+            "terrain": "Urban",
+            "gender": "Women's",
+            "accessories": ["Lights", "Lock"],
+            "weight": "Light",
+            "foldable": true,
+            "shippingOptions": ["Standard", "Free"]
+          }
+          
+    },
+    "productEight":{
+        "id":"08",
+        "name": "City Cruiser",
+        "img": "https://example.com/city-cruiser.jpg",
+        "price": "$1000.00",
+        "description": "A stylish and comfortable bike for urban exploration.",
+        "color": "Silver",
+        "size": "Large",
+        "brand": "UrbanCruiser",
+        "quantity": "18",
+        "categories": ["City Bikes"],
+        "tags": ["Style", "Comfort", "Urban"],
+        "reviews": {
+          "averageRating": 4.0,
+          "totalReviews": 40,
+          "customerReviews": [
+            {
+              "username": "StylishExplorer",
+              "rating": 4,
+              "comment": "Looks great and rides comfortably in the city."
+            },
+            {
+              "username": "CityNomad",
+              "rating": 3,
+              "comment": "Decent bike for city commuting."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
+            "fork": "SR Suntour NEX",
+            "rearShock": "N/A",
+            "headset": "Integrated",
+            "shifters": "Shimano Tourney",
+            "frontDerailleur": "Shimano Tourney",
+            "bikeType": "Commuter",
+            "frameMaterial": "Steel",
+            "bikeSize": "Medium",
+            "wheelSize": "26-inch",
+            "brakeType": "Rim brakes",
+            "gears": "7-speed",
+            "suspensionType": "Rigid",
+            "brand": "CityCruise",
+            "priceRange": {
+              "min": 300,
+              "max": 600
+            },
+            "color": "Yellow",
+            "customerRatings": "3-star",
+            "availability": "In stock",
+            "newArrivals": true,
+            "discountedItems": false,
+            "terrain": "Urban",
+            "gender": "Unisex",
+            "accessories": ["Helmets", "Lights"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Standard", "Expedited"]
+          }
+          
+    },
+    "productNine":{
+        "id":"09",
+        "name": "Road Racer",
+        "img": "https://example.com/road-racer.jpg",
+        "price": "$1500.00",
+        "description": "Designed for speed and agility on the open road.",
+        "color": "Red",
+        "size": "Small",
+        "brand": "Velocity",
+        "quantity": "12",
+        "categories": ["Road Bikes"],
+        "tags": ["Speed", "Road Racing", "Agile"],
+        "reviews": {
+          "averageRating": 4.5,
+          "totalReviews": 50,
+          "customerReviews": [
+            {
+              "username": "Speedster123",
+              "rating": 5,
+              "comment": "Impressive speed and lightweight design."
+            },
+            {
+              "username": "RoadWarrior",
+              "rating": 4,
+              "comment": "Smooth ride on long distances."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
+            "fork": "Zoom CH-141",
+            "rearShock": "N/A",
+            "headset": "Threaded",
+            "shifters": "MicroShift TS39",
+            "frontDerailleur": "N/A",
+            "bikeType": "BMX",
+            "frameMaterial": "Hi-Ten Steel",
+            "bikeSize": "Small",
+            "wheelSize": "20-inch",
+            "brakeType": "U-brakes",
+            "gears": "Single speed",
+            "suspensionType": "Rigid",
+            "brand": "StreetMaster",
+            "priceRange": {
+              "min": 150,
+              "max": 300
+            },
+            "color": "Orange",
+            "customerRatings": "4-star",
+            "availability": "In stock",
+            "newArrivals": true,
+            "discountedItems": true,
+            "terrain": "Urban",
+            "gender": "Unisex",
+            "accessories": ["Lights", "Lock"],
+            "weight": "Light",
+            "foldable": false,
+            "shippingOptions": ["Standard"]
+          }
+          
+    },
+    "productTen":{
+        "id":"10",
+        "name": "Urban Commuter",
+        "img": "https://example.com/urban-commuter.jpg",
+        "price": "$800.00",
+        "description": "Perfect for daily commutes in the city.",
+        "color": "Black",
+        "size": "Medium",
+        "brand": "CityCruise",
+        "quantity": "15",
+        "categories": ["Commuter Bikes"],
+        "tags": ["Urban", "City", "Commute"],
+        "reviews": {
+          "averageRating": 4.2,
+          "totalReviews": 30,
+          "customerReviews": [
+            {
+              "username": "CityCommuter",
+              "rating": 4,
+              "comment": "Sleek design and smooth ride for city streets."
+            },
+            {
+              "username": "EcoFriendlyRider",
+              "rating": 4,
+              "comment": "Good for the environment and my daily commute."
+            }
+          ]
+        }
+      ,
+        "productSpecifications": {
+            "fork": "Suntour XCM",
+            "rearShock": "RockShox Monarch RL",
+            "headset": "Cane Creek 40",
+            "shifters": "Shimano Deore",
+            "frontDerailleur": "Shimano XT",
+            "bikeType": "Hybrid",
+            "frameMaterial": "Aluminum",
+            "bikeSize": "Extra Large",
+            "wheelSize": "28-inch",
+            "brakeType": "Hydraulic disc brakes",
+            "gears": "10-speed",
+            "suspensionType": "Hardtail",
+            "brand": "CrossRide",
+            "priceRange": {
+              "min": 600,
+              "max": 1200
+            },
+            "color": "Purple",
+            "customerRatings": "5-star",
+            "availability": "In stock",
+            "newArrivals": false,
+            "discountedItems": false,
+            "terrain": "Urban",
+            "gender": "Unisex",
+            "accessories": ["Helmets", "Lights", "Locks"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Expedited"]
+          }
+          
+    },
+    "productEleven": {
+        "id":"11",
+        "name": "Urban Voyager",
+        "img": "https://example.com/urban-voyager.jpg",
+        "price": "$950.00",
+        "description": "Perfect for urban explorers with a sleek design.",
+        "color": "White",
+        "size": "Small",
+        "brand": "CityCruise",
+        "quantity": "18",
+        "categories": ["Commuter Bikes"],
+        "tags": ["Urban", "Explorer", "Sleek"],
+        "reviews": {
+            "averageRating": 4.2,
+            "totalReviews": 30,
+            "customerReviews": [
+                {
+                    "username": "CityVoyager",
+                    "rating": 4,
+                    "comment": "Smooth ride for city exploration."
+                },
+                {
+                    "username": "SleekExplorer",
+                    "rating": 4,
+                    "comment": "Sleek and stylish for urban adventures."
+                }
+            ]
+        },
+        "productSpecifications": {
+            "fork": "Suntour XCM",
+            "rearShock": "RockShox Monarch RL",
+            "headset": "Cane Creek 40",
+            "shifters": "Shimano Deore",
+            "frontDerailleur": "Shimano XT",
+            "bikeType": "Hybrid",
+            "frameMaterial": "Aluminum",
+            "bikeSize": "Medium",
+            "wheelSize": "28-inch",
+            "brakeType": "Hydraulic disc brakes",
+            "gears": "10-speed",
+            "suspensionType": "Hardtail",
+            "brand": "CrossRide",
+            "priceRange": {
+                "min": 600,
+                "max": 1200
+            },
+            "color": "White",
+            "customerRatings": "4.3-star",
+            "availability": "In stock",
+            "newArrivals": false,
+            "discountedItems": true,
+            "terrain": "Urban",
+            "gender": "Unisex",
+            "accessories": ["Helmets", "Lights", "Locks"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Expedited"]
+        }
+    },
+    "productTwelve": {
+        "id":"12",
+        "name": "Speedster Elite",
+        "img": "https://example.com/speedster-elite.jpg",
+        "price": "$1700.00",
+        "description": "High-performance road bike designed for speed enthusiasts.",
+        "color": "Black",
+        "size": "Large",
+        "brand": "Velocity",
+        "quantity": "15",
+        "categories": ["Road Bikes"],
+        "tags": ["Speed", "Performance", "Elite"],
+        "reviews": {
+            "averageRating": 4.6,
+            "totalReviews": 42,
+            "customerReviews": [
+                {
+                    "username": "SpeedFanatic",
+                    "rating": 5,
+                    "comment": "Unmatched speed and elite performance."
+                },
+                {
+                    "username": "RoadMaster",
+                    "rating": 4,
+                    "comment": "Sleek design and agile on the road."
+                }
+            ]
+        },
+        "productSpecifications": {
+            "fork": "Manitou Markhor",
+            "rearShock": "Fox Float DPS",
+            "headset": "Cane Creek 40",
+            "shifters": "Shimano SLX",
+            "frontDerailleur": "Shimano Deore",
+            "bikeType": "Road",
+            "frameMaterial": "Carbon Fiber",
+            "bikeSize": "Large",
+            "wheelSize": "28-inch",
+            "brakeType": "Disc brakes",
+            "gears": "18-speed",
+            "suspensionType": "Rigid",
+            "brand": "Velocity",
+            "priceRange": {
+                "min": 1200,
+                "max": 2500
+            },
+            "color": "Black",
+            "customerRatings": "4.5-star",
+            "availability": "Out of stock",
+            "newArrivals": true,
+            "discountedItems": false,
+            "terrain": "Road",
+            "gender": "Men's",
+            "accessories": ["Lights", "Lock"],
+            "weight": "Light",
+            "foldable": true,
+            "shippingOptions": ["Standard", "Free"]
+        }
+    },
+    "productThirteen": {
+        "id":"13",
+        "name": "City Navigator",
+        "img": "https://example.com/city-navigator.jpg",
+        "price": "$1100.00",
+        "description": "Stylish and comfortable bike for navigating the city.",
+        "color": "Silver",
+        "size": "Medium",
+        "brand": "UrbanCruiser",
+        "quantity": "22",
+        "categories": ["City Bikes"],
+        "tags": ["Style", "Comfort", "Urban"],
+        "reviews": {
+            "averageRating": 4.3,
+            "totalReviews": 35,
+            "customerReviews": [
+                {
+                    "username": "CityStyle",
+                    "rating": 4,
+                    "comment": "Stylish and comfortable for city rides."
+                },
+                {
+                    "username": "UrbanNomad",
+                    "rating": 4,
+                    "comment": "Navigates through urban traffic with ease."
+                }
+            ]
+        },
+        "productSpecifications": {
+            "fork": "SR Suntour NEX",
+            "rearShock": "N/A",
+            "headset": "Integrated",
+            "shifters": "Shimano Tourney",
+            "frontDerailleur": "Shimano Tourney",
+            "bikeType": "Commuter",
+            "frameMaterial": "Steel",
+            "bikeSize": "Medium",
+            "wheelSize": "27.5-inch",
+            "brakeType": "Rim brakes",
+            "gears": "7-speed",
+            "suspensionType": "Rigid",
+            "brand": "CityCruise",
+            "priceRange": {
+                "min": 400,
+                "max": 800
+            },
+            "color": "Silver",
+            "customerRatings": "4-star",
+            "availability": "In stock",
+            "newArrivals": true,
+            "discountedItems": false,
+            "terrain": "Urban",
+            "gender": "Unisex",
+            "accessories": ["Helmets", "Lights"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Standard", "Expedited"]
+        }
+    },
+    "productFourteen": {
+        "id":"14",
+        "name": "Electric Trailblazer",
+        "img": "https://example.com/electric-trailblazer.jpg",
+        "price": "$2800.00",
+        "description": "An electric bike designed for off-road adventures.",
+        "color": "Orange",
+        "size": "Large",
+        "brand": "EcoCruiser",
+        "quantity": "12",
+        "categories": ["Electric Bikes"],
+        "tags": ["Electric", "Off-road", "Adventure"],
+        "reviews": {
+            "averageRating": 4.8,
+            "totalReviews": 45,
+            "customerReviews": [
+                {
+                    "username": "OffroadExplorer",
+                    "rating": 5,
+                    "comment": "Fantastic for off-road trails."
+                },
+                {
+                    "username": "EcoAdventurer",
+                    "rating": 5,
+                    "comment": "Environmentally friendly and powerful."
+                }
+            ]
+        },
+        "productSpecifications": {
+            "fork": "Fox 34 Float",
+            "rearShock": "RockShox Deluxe",
+            "headset": "FSA Orbit ZS",
+            "shifters": "Shimano XT",
+            "frontDerailleur": "Shimano SLX",
+            "bikeType": "Mountain",
+            "frameMaterial": "Carbon Fiber",
+            "bikeSize": "Large",
+            "wheelSize": "29-inch",
+            "brakeType": "Hydraulic disc brakes",
+            "gears": "11-speed",
+            "suspensionType": "Full suspension",
+            "brand": "Trailblazer",
+            "priceRange": {
+                "min": 2000,
+                "max": 3500
+            },
+            "color": "Orange",
+            "customerRatings": "5-star",
+            "availability": "Out of stock",
+            "newArrivals": false,
+            "discountedItems": true,
+            "terrain": "Off-road",
+            "gender": "Men's",
+            "accessories": ["Helmet", "Lights", "Lock"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Standard", "Expedited"]
+        }
+    },
+    "productFifteen": {
+        "id":"15",
+        "name": "Hybrid Explorer",
+        "img": "https://example.com/hybrid-explorer.jpg",
+        "price": "$950.00",
+        "description": "Versatile bike for commuting and light off-road adventures.",
+        "color": "Blue",
+        "size": "Small",
+        "brand": "CommuteRide",
+        "quantity": "20",
+        "categories": ["Hybrid Bikes"],
+        "tags": ["Versatile", "Commute", "Light Trails"],
+        "reviews": {
+            "averageRating": 4.2,
+            "totalReviews": 30,
+            "customerReviews": [
+                {
+                    "username": "EverydayRider",
+                    "rating": 4,
+                    "comment": "Perfect for daily commutes."
+                },
+                {
+                    "username": "TrailBlazer2",
+                    "rating": 4,
+                    "comment": "Handles light trails with ease."
+                }
+            ]
+        },
+        "productSpecifications": {
+            "fork": "Suntour NEX",
+            "rearShock": "RockShox Monarch",
+            "headset": "Cane Creek 40",
+            "shifters": "Shimano Deore",
+            "frontDerailleur": "Shimano XT",
+            "bikeType": "Urban",
+            "frameMaterial": "Steel",
+            "bikeSize": "Small",
+            "wheelSize": "26-inch",
+            "brakeType": "Rim brakes",
+            "gears": "8-speed",
+            "suspensionType": "Hardtail",
+            "brand": "CityExplorer",
+            "priceRange": {
+                "min": 600,
+                "max": 1200
+            },
+            "color": "Blue",
+            "customerRatings": "4-star",
+            "availability": "In stock",
+            "newArrivals": false,
+            "discountedItems": false,
+            "terrain": "Urban",
+            "gender": "Unisex",
+            "accessories": ["Helmets", "Lights", "Locks"],
+            "weight": "Medium",
+            "foldable": false,
+            "shippingOptions": ["Expedited"]
+        }
+    },
+    
+    "productSixteen": {
+        "id":"16",
+            "name": "Hybrid Commuter",
+            "img": "https://example.com/hybrid-commuter.jpg",
+            "price": "$900.00",
+            "description": "Versatile bike for both commuting and light off-road trails.",
+            "color": "Green",
+            "size": "Medium",
+            "brand": "CommuteRide",
+            "quantity": "25",
+            "categories": ["Hybrid Bikes"],
+            "tags": ["Versatile", "Commute", "Light Trails"],
+            "reviews": {
+                "averageRating": 4.3,
+                "totalReviews": 35,
+                "customerReviews": [
+                    {
+                        "username": "DailyCommuter",
+                        "rating": 4,
+                        "comment": "Great for daily commuting and occasional trails."
+                    },
+                    {
+                        "username": "TrailExplorer",
+                        "rating": 4,
+                        "comment": "Handles light off-road paths well."
+                    }
+                ]
+            },
+            "productSpecifications": {
+                "fork": "RockShox XC30",
+                "rearShock": "Fox Float",
+                "headset": "Cane Creek 10",
+                "shifters": "SRAM NX",
+                "frontDerailleur": "Shimano SLX",
+                "bikeType": "Mountain",
+                "frameMaterial": "Aluminum",
+                "bikeSize": "Medium",
+                "wheelSize": "27.5-inch",
+                "brakeType": "Hydraulic disc brakes",
+                "gears": "12-speed",
+                "suspensionType": "Full suspension",
+                "brand": "Trailblazer",
+                "priceRange": {
+                    "min": 800,
+                    "max": 1500
+                },
+                "color": "Green",
+                "customerRatings": "5-star",
+                "availability": "In stock",
+                "newArrivals": false,
+                "discountedItems": true,
+                "terrain": "Off-road",
+                "gender": "Unisex",
+                "accessories": ["Helmet", "Lights", "Lock"],
+                "weight": "Medium",
+                "foldable": false,
+                "shippingOptions": ["Standard", "Expedited"]
+            }
+        },
+        "productSeventeen": {
+            "id":"17",
+            "name": "Foldable Explorer",
+            "img": "https://example.com/foldable-explorer.jpg",
+            "price": "$1300.00",
+            "description": "A foldable bike for convenient storage and travel.",
+            "color": "Purple",
+            "size": "Medium",
+            "brand": "FoldNGo",
+            "quantity": "15",
+            "categories": ["Foldable Bikes"],
+            "tags": ["Foldable", "Convenient", "Travel"],
+            "reviews": {
+                "averageRating": 4.5,
+                "totalReviews": 25,
+                "customerReviews": [
+                    {
+                        "username": "FoldableFanatic",
+                        "rating": 5,
+                        "comment": "Great for commuting and easy to store."
+                    },
+                    {
+                        "username": "Traveler123",
+                        "rating": 4,
+                        "comment": "Convenient for travel and storage."
+                    }
+                ]
+            },
+            "productSpecifications": {
+                "fork": "Suntour XCR",
+                "rearShock": "RockShox Deluxe",
+                "headset": "FSA Orbit",
+                "shifters": "Shimano Deore",
+                "frontDerailleur": "Shimano XT",
+                "bikeType": "Road",
+                "frameMaterial": "Carbon Fiber",
+                "bikeSize": "Small",
+                "wheelSize": "26-inch",
+                "brakeType": "Rim brakes",
+                "gears": "18-speed",
+                "suspensionType": "Rigid",
+                "brand": "Velocity",
+                "priceRange": {
+                    "min": 1200,
+                    "max": 2500
+                },
+                "color": "Red",
+                "customerRatings": "4-star",
+                "availability": "Out of stock",
+                "newArrivals": true,
+                "discountedItems": false,
+                "terrain": "Urban",
+                "gender": "Men's",
+                "accessories": ["Lights", "Lock"],
+                "weight": "Light",
+                "foldable": true,
+                "shippingOptions": ["Standard", "Free"]
+            }
+        },
+        "productEighteen": {
+            "id":"18",
+            "name": "Lightweight Racer",
+            "img": "https://example.com/lightweight-racer.jpg",
+            "price": "$1800.00",
+            "description": "An aerodynamic road bike designed for speed enthusiasts.",
+            "color": "Orange",
+            "size": "Large",
+            "brand": "Velocity",
+            "quantity": "10",
+            "categories": ["Road Bikes"],
+            "tags": ["Aerodynamic", "Speed", "Performance"],
+            "reviews": {
+                "averageRating": 4.7,
+                "totalReviews": 40,
+                "customerReviews": [
+                    {
+                        "username": "SpeedDemon",
+                        "rating": 5,
+                        "comment": "Unmatched speed and sleek design."
+                    },
+                    {
+                        "username": "RoadRacer123",
+                        "rating": 4,
+                        "comment": "Handles like a dream on the open road."
+                    }
+                ]
+            },
+            "productSpecifications": {
+                "fork": "Manitou Markhor",
+                "rearShock": "Fox Float DPS",
+                "headset": "Cane Creek 40",
+                "shifters": "Shimano SLX",
+                "frontDerailleur": "Shimano Deore",
+                "bikeType": "Hybrid",
+                "frameMaterial": "Steel",
+                "bikeSize": "Large",
+                "wheelSize": "29-inch",
+                "brakeType": "Mechanical disc brakes",
+                "gears": "8-speed",
+                "suspensionType": "Hardtail",
+                "brand": "CommuteRide",
+                "priceRange": {
+                    "min": 500,
+                    "max": 1000
+                },
+                "color": "Blue",
+                "customerRatings": "4-star",
+                "availability": "In stock",
+                "newArrivals": false,
+                "discountedItems": false,
+                "terrain": "Urban",
+                "gender": "Unisex",
+                "accessories": ["Helmets", "Lights", "Locks"],
+                "weight": "Medium",
+                "foldable": false,
+                "shippingOptions": ["Expedited"]
+            }
+        },
+        "productNinteen": {
+            "id":"19",
+            "name": "Steel Commuter",
+            "img": "https://example.com/steel-commuter.jpg",
+            "price": "$500.00",
+            "description": "A reliable and durable commuter bike with a steel frame.",
+            "color": "Yellow",
+            "size": "Small",
+            "brand": "CityCruise",
+            "quantity": "30",
+            "categories": ["Commuter Bikes"],
+            "tags": ["Reliable", "Durable", "Steel Frame"],
+            "reviews": {
+                "averageRating": 4.0,
+                "totalReviews": 20,
+                "customerReviews": [
+                    {
+                        "username": "SteelCommute",
+                        "rating": 4,
+                        "comment": "Solid build and comfortable for daily commuting."
+                    },
+                    {
+                        "username": "CityExplorer",
+                        "rating": 3,
+                        "comment": "Decent bike for city commuting."
+                    }
+                ]
+            },
+            "productSpecifications": {
+                "fork": "RST Omega",
+                "rearShock": "X-Fusion O2 Pro",
+                "headset": "FSA No.42",
+                "shifters": "SRAM GX",
+                "frontDerailleur": "SRAM X5",
+                "bikeType": "BMX",
+                "frameMaterial": "Chromoly",
+                "bikeSize": "Extra Large",
+                "wheelSize": "20-inch",
+                "brakeType": "U-brakes",
+                "gears": "Single speed",
+                "suspensionType": "Rigid",
+                "brand": "StreetShredder",
+                "priceRange": {
+                    "min": 300,
+                    "max": 600
+                },
+                "color": "Black",
+                "customerRatings": "5-star",
+                "availability": "In stock",
+                "newArrivals": true,
+                "discountedItems": true,
+                "terrain": "Urban",
+                "gender": "Unisex",
+                "accessories": ["Lights", "Lock"],
+                "weight": "Light",
+                "foldable": false,
+                "shippingOptions": ["Standard"]
+            }
+        },
+        "productTwenty": {
+            "id":"20",
+            "name": "BMX Master",
+            "img": "https://example.com/bmx-master.jpg",
+            "price": "$400.00",
+            "description": "A sturdy and stylish BMX bike for tricks and stunts.",
+            "color": "Black",
+            "size": "Extra Large",
+            "brand": "StreetShredder",
+            "quantity": "15",
+            "categories": ["BMX Bikes"],
+            "tags": ["Sturdy", "Stylish", "Tricks"],
+            "reviews": {
+                "averageRating": 4.5,
+                "totalReviews": 25,
+                "customerReviews": [
+                    {
+                        "username": "BMXMaster123",
+                        "rating": 5,
+                        "comment": "Excellent for tricks and stunts."
+                    },
+                    {
+                        "username": "StylishRider",
+                        "rating": 4,
+                        "comment": "Looks cool and performs well."
+                    }
+                ]
+            },
+            "productSpecifications": {
+                "fork": "Fork Type",
+                "rearShock": "Rear Shock Type",
+                "headset": "Headset Type",
+                "shifters": "Shifters Type",
+                "frontDerailleur": "Front Derailleur Type",
+                "bikeType": "RandomValue1",
+                "frameMaterial": "RandomValue2",
+                "bikeSize": "RandomValue3",
+                "wheelSize": "RandomValue4",
+                "brakeType": "RandomValue5",
+                "gears": "RandomValue6",
+                "suspensionType": "RandomValue7",
+                "brand": "RandomValue8",
+                "priceRange": {
+                    "min": "RandomValue9",
+                    "max": "RandomValue10"
+                },
+                "color": "RandomValue11",
+                "customerRatings": "RandomValue12",
+                "availability": "RandomValue13",
+                "newArrivals": "RandomValue14",
+                "discountedItems": "RandomValue15",
+                "terrain": "RandomValue16",
+                "gender": "RandomValue17",
+                "accessories": "RandomValue18",
+                "weight": "RandomValue19",
+                "foldable": "RandomValue20",
+                "shippingOptions": "RandomValue21"
+            }
+        }
 
 }

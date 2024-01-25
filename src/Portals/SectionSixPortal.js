@@ -4,7 +4,7 @@ import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
 
 
-export default function SectionSixPortal({name,imgUrl,price,closePortal,customClass}) {
+export default function SectionSixPortal({name,imgUrl,price,closePortal,customClass,tags,categories,description}) {
     const togglePortal = () => {
         closePortal(false);
     }
@@ -34,9 +34,7 @@ export default function SectionSixPortal({name,imgUrl,price,closePortal,customCl
                 <div className={classes.textHolder}>
                     <div className={classes.descriptionContainer}>
                         <p>
-                        doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; 
-                        est usus legentis in iis qui facit eorum claritatem.
-                        Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+                            {description}
                         </p>
                     </div>
                 </div>
@@ -47,19 +45,14 @@ export default function SectionSixPortal({name,imgUrl,price,closePortal,customCl
                     <div className={classes.categoriesContainer}>
                         <p>CATEGORIES:</p>
                         <ul>
-                            <li>Bike</li>
-                            <li>Cycle</li>
-                            <li>Mountain</li>
-                            <li>Ride</li>
+                            <li style={{width:'max-width'}}>{categories}</li>
+                            
                         </ul>
                     </div>
                     <div className={classes.tagContainers}>
                         <p>TAG:</p>
                         <ul>
-                            <li>Bike</li>
-                            <li>Cycle</li>
-                            <li>Mountain</li>
-                            <li>Ride</li>
+                            <li>{tags}</li>
                         </ul>
                     </div>
                 </div>

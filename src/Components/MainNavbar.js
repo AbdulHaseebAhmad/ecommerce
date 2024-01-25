@@ -11,13 +11,13 @@ export default function MainNavbar() {
         </div>
 
         <div className={classes.navLinksContainer}>
-          <a href=''>HOME</a>
-          <a href=''>PRODUCTS</a>
-          <a href=''>ABOUT</a>
+          <a href='/'>HOME</a>
+          <a href='products'>PRODUCTS</a>
+          <a href='about'>ABOUT</a>
           <a href=''>SHORTCODE</a>
-          <a href=''>BLOG</a>
-          <a href=''>PAGES</a>
-          <a href=''>CONTACT</a>
+          <a href='blog'>BLOG</a>
+          <a href='pages'>PAGES</a>
+          <a href='contact'>CONTACT</a>
         </div>
 
         <div className={classes.cartIconContainer}>
