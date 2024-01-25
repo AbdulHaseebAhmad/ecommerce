@@ -1,0 +1,115 @@
+.sideBarContaine{
+    width:260px;
+    height:max-content;
+    padding:0px 0px;
+}
+
+.sideBarContentHolder{
+    width:100%;
+    height:100%;
+    padding: 0px;
+}
+
+.dropDownContainer{
+    width: 100%;
+    min-height:50px;
+    border:1px solid rgb(119, 119, 119);
+    border-radius: 5px;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin:0px auto 15px auto;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.dropDownContainer:hover .labelHolder p , .dropDownContainer:hover .arrow{
+    color: #fd7e14;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.dropDownContainer:hover{
+    border:1px solid #fd7e14;
+
+}
+.arrow{
+    position:absolute;
+    width:30px;
+    height:30px;
+    right:10px;
+    top:10px;
+    cursor: pointer;
+    color: rgb(119, 119, 119);;
+}
+
+.LabelContainer{
+    width:100%;
+    height: 100%;
+   
+}
+
+.labelHolder{
+    width:max-content;
+    height:100%;
+    margin:0px auto;
+}
+
+
+.labelHolder p {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.0px;
+    color:  rgb(119, 119, 119);
+}
+
+.dropDownSelect{
+    width:100%;
+    height:max-content;
+    transition: all 1s ease-in-out;
+}
+
+.optionsHolder{
+    width:100%;
+    height:max-content;
+    z-index: 10;   
+    transition: all 0.3s ease-in-out;   
+}
+
+
+.dropDownOption{
+    width: 100%;
+    height: 40px;;
+    background: transparent;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.dropDownOption:hover .dropDownContainer{
+    background-color: #fff;
+
+}
+
+.dropDownOption:hover{
+    background-color: rgb(253, 126, 23);
+    cursor: pointer;
+    
+}
+
+.dropDownOption:hover p{
+    color:#fff;
+    font-weight: 600;
+} 
+.dropDownOption p{
+    color:rgb(119,119,119);
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}

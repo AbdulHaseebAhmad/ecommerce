@@ -1,0 +1,28 @@
+{
+    "filters": {
+      "Bike Type": ["Road", "Mountain", "Hybrid", "Commuter", "BMX", "Electric"],
+      "Frame Material": ["Aluminum", "Steel", "Carbon Fiber", "Titanium"],
+      "Bike Size": ["Small", "Medium", "Large", "Extra Large"],
+      "Wheel Size": ["26-inch", "27.5-inch", "29-inch"],
+      "Brake Type": ["Disc brakes", "Rim brakes", "Hydraulic disc brakes", "Mechanical disc brakes"],
+      "Gears": ["Single speed", "3-speed", "7-speed", "21-speed", "24-speed"],
+      "Suspension Type": ["Full suspension", "Hardtail", "Rigid"],
+      "Brand": ["Brand1", "Brand2", "Brand3"],
+      "Price Range": {
+        "min": 0,
+        "max": 5000
+      },
+      "Color": ["Red", "Blue", "Green", "Black", "White"],
+      "Customer Ratings": ["1-star", "2-star", "3-star", "4-star", "5-star"],
+      "Availability": ["In stock", "Out of stock"],
+      "New Arrivals": true,
+      "Discounted Items": true,
+      "Terrain": ["Urban", "Off-road"],
+      "Gender": ["Men's", "Women's", "Unisex"],
+      "Accessories": ["Helmets", "Lights", "Locks"],
+      "Weight": ["Light", "Medium", "Heavy"],
+      "Foldable": true,
+      "Shipping Options": ["Standard", "Expedited", "Free"]
+    }
+  }
+  
