@@ -2,15 +2,16 @@ import React, { useEffect, useState } from 'react'
 import SectionOne from '../ProductPage/Sections/SectionOne'
 import SectionTwo from '../ProductPage/Sections/SectionTwo'
 import productsData from "../Data/mockaroodb.json";
-import { useActionData, useLoaderData } from 'react-router';
+import { json, useActionData, useRouteLoaderData } from 'react-router';
 
 export default function Products() {  
 
   const [products,setProducts] = useState([]);
 
-  const data = useLoaderData();
+  const data = useRouteLoaderData('products');
   const actionData = useActionData();
 
+  
   useEffect(()=>{
       if(actionData === undefined){
         setProducts(data);
@@ -53,6 +54,5 @@ export const action = async ({request,params}) => {
         localProductsArray = [];
       }
     }
-
     return  localProductsArray;
 } 

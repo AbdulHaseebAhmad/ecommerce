@@ -5,6 +5,7 @@ import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlin
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined";
 import SectionSixPortal from "../Portals/SectionSixPortal";
 import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 
 export default function SectionSixCard({
   name,
@@ -53,7 +54,7 @@ export default function SectionSixCard({
 
       <div className={classes.textContainer}>
         <div className={classes.bikeNameHolder}>
-          <h5>{name}</h5>
+          <h5><Link to={`/products/${name}`} style={{textDecoration:'none', color:'inherit'}}>{name}</Link></h5>
         </div>
         <div className={classes.bikePriceHolder}>
           <p>

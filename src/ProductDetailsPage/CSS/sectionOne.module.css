@@ -1,0 +1,13 @@
+.sectionOneContainer{
+    height:250px;
+    background-image: url('https://template.hasthemes.com/rideo/rideo/img/slider/bg1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+}
+
+.sectionOneContent{
+    height: calc(100% - 50px);
+    display: flex;
+    align-items: center;
+}

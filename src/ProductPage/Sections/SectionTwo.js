@@ -1,25 +1,43 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import classes from "../CSS/sectionTwo.module.css";
 import SideBar from "../Components/SideBar";
 import SectionSixCard from "../../Cards/SectionSixCard";
  import Footer from "../../Components/Footer";
 import { useSubmit } from "react-router-dom";
+import {  useSelector } from "react-redux";
 
 export default function SectionTwo({ products }) {
   ///const {products} = productsData;
   
   const [typeOfProduct, setType] = useState("bikes");
+  const [filteredProducts, setFilteredProducts] = useState([]);
+  const [localProducts,setLocalProducts] = useState([]);
 
   const submit = useSubmit();
-
   const toggleType = (event) => {
     setType(event.target.value);
     submit({"type":event.target.value},{method:'POST', action:'/products',encType: "application/json"})
   };
 
-  const filterProducts = (filterProperty) => {
-      
-  }
+  const isFilter = useSelector(state => state.filter.filter)
+  const filterValue = useSelector(state => state.filter.filterValue)
+
+  useEffect(()=>{
+    const filteredProducts = [];
+    if(isFilter){
+      for(const key in products){
+        if(products[key].categories === filterValue){
+          filteredProducts.push(products[key])
+        }
+      }
+      setLocalProducts(filteredProducts)
+    }
+    else {
+      setLocalProducts(products)
+    }
+    
+  },[isFilter,filterValue,products])
+
 
 
   return (
@@ -87,7 +105,7 @@ export default function SectionTwo({ products }) {
           </div>
           <div className={classes.cardContainers}>
             <div className={classes.cardHolder}>
-              {products.length != 0 ? products.map((eachBike) => {
+              {localProducts.length != 0 ? localProducts.map((eachBike) => {
                 return (
                   <SectionSixCard
                     name={eachBike.name}
@@ -98,7 +116,6 @@ export default function SectionTwo({ products }) {
                     categories={eachBike.categories}
                     tags={eachBike.tags}
                     description={eachBike.description}
-                    filter={filterProducts}
                   />
                 );
               }): <div className={classes.errorMessage}><p>There Are No Products To Show</p></div>}

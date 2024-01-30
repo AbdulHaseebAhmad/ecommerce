@@ -1,0 +1,209 @@
+.sectionTwoOutterContainer{
+    background-color: #fff;
+    padding-top: 100px;
+}
+
+.contentContainer{
+    width:90%;
+    margin:0px auto 50px auto;
+/*    border:1px solid red;
+
+*/}
+
+.topContentContainer{
+    width:100%;
+}
+
+.topContainer{
+    width:100%;
+    max-height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.topLetContainer{
+    width:50%;
+    height:800px;
+    max-height: max-content;
+/*    border:1px solid green;*/
+}
+
+.imgContainer{
+    height:70%;
+    width:100%;
+/*    border:1px solid yellow;
+*/
+    background-color:rgb(128,128,128,0.1);
+}
+
+.imgHolder{
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.topRightContainer{
+    width:50%;
+    height: max-content;
+/*    border:1px solid black;
+*/
+    align-self: flex-start;
+
+}
+
+.rightContentContainer{
+    width:100%;
+    padding:0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:50px;
+}
+
+.titleContainer{
+    width:100%;
+}
+.titleHolder, .priceHolder{
+    width:100%;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    color:rgb(85,85,85);
+    margin:0px 0px 10px 0px;
+}
+
+.price{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color:rgb(27,27,27);
+    margin:0px;
+}
+
+.descriptionContainer, .descriptionHolder{
+    width: 100%;
+}
+
+.description{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color:rgb(68,68,68);
+    letter-spacing: 1px;
+}
+
+.categoryContainer{
+    width:100%;
+}
+
+.categoryHolder, .tagHolder{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:2px;
+}
+
+.fieldTitle{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    color:rgb(27,27,27);
+}
+
+.actionsContainer{
+    width:100%;
+}
+
+.actionsHolder{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.actionTopContainer{
+    display: flex;
+    align-items: flex-start;
+    gap:10px;
+    width:100%;
+}
+
+.dropwDownContainer{
+    width:200px;
+}
+
+.inputHolder{
+    width:160px;
+    height:45px;
+    margin-bottom: 20px;
+}
+
+.input{
+    height:100%;
+    width:100%;
+    cursor: pointer;
+    font-display:italic;
+    color:#fd7e14;
+    font-weight: 700;
+    border-radius:5px;
+    border: 1px solid rgb(119, 119, 119);
+    text-indent: 10px;
+}
+
+.input::placeholder{
+    font-size: 14px;
+}
+.input:hover, .input:active, .input:focus{
+    border:1px solid #fd7e14;
+    outline:none;
+    border:none;
+    font-size: 23px;;
+
+}
+
+.actionsBottomContainer{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.button{
+    width:200px;
+    height:50px;
+    background: none;
+    outline: none;
+    border:1px solid rgb(119, 119, 119);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.0px;
+    color:  rgb(119, 119, 119);
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    border:1px solid #fd7e14;
+    background-color: rgb(253, 126, 20);
+    color:#fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.specificationTableHolder{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
