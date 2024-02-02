@@ -6,6 +6,7 @@ import Products, {
 } from "./Pages/Products";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProductDetails, {loader as productDetailLoader} from "./Pages/ProductDetails";
+import Blogs from "./Pages/Blogs";
 
 function App() {
   const router = createBrowserRouter([
@@ -31,6 +32,7 @@ function App() {
             }
           ]
         },
+        {path:'blogs',element:<Blogs/>}
       ],
     },
   ]);

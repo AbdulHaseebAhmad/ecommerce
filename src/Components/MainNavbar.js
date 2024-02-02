@@ -14,8 +14,8 @@ export default function MainNavbar() {
           <a href='/'>HOME</a>
           <a href='/products'>PRODUCTS</a>
           <a href='/about'>ABOUT</a>
-          <a href=''>SHORTCODE</a>
-          <a href='blog'>BLOG</a>
+          <a href='blogs'>BLOG</a>
+          <a href=''>ACCOUNT</a>
           <a href='pages'>PAGES</a>
           <a href='contact'>CONTACT</a>
         </div>
