@@ -10,7 +10,7 @@
 
 */}
 
-.topContentContainer{
+.topContentContainer, .centerContentContainer, .centerContentHolder{
     width:100%;
 }
 
@@ -45,6 +45,37 @@
     background-position: center;
     background-size: 100%;
 }
+
+.slideContainer{
+    width:100%;
+    height: max-content;
+    overflow-x: scroll;
+}
+
+.slideContainer::-webkit-scrollbar{
+    display: none;
+}
+.slideHolder{
+    width:90%;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10px;
+    padding-left: 110px;
+}
+
+.slideImg{
+    min-width:135px;
+    height:110px;
+    border:0.1px solid rgb(119, 119, 119,0.4);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+    cursor: pointer;
+}
+
+
 
 .topRightContainer{
     width:50%;
@@ -88,6 +119,19 @@
     margin:0px;
 }
 
+.reviewsContainer,.reviewsHolder{
+    width:100%;
+}
+
+.reviewsContainer{
+    margin-top: -50px;
+}
+
+.reviewsPara{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(128,128,128);
+}
 .descriptionContainer, .descriptionHolder{
     width: 100%;
 }
@@ -109,7 +153,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap:2px;
+    gap:10px;
 }
 
 .fieldTitle{
@@ -206,4 +250,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.centerContentContainer{
+    margin-top: 100px;
 }

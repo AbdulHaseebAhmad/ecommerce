@@ -1,0 +1,138 @@
+.detailContainer{
+    width:100%;
+}
+
+.detailHolder{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:40px;
+}
+
+.detailNavContainer{
+    width:100%;
+    height:max-content;
+    min-height: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.detailsNav{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.buttonContainer{
+    width:max-content;
+    height: 50px;
+}
+
+.button{
+    width:max-content;
+    height:100%;
+    background: none;
+    border: none;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 1.2px;
+    color:rgb(194, 194, 194);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover, .button:active{
+    color:rgb(27,27,27);
+    font-weight: 800;
+    border-bottom: 1px solid rgb(27,27,27);
+}
+
+.detailBottomContainer{
+    width:100%;
+    height:max-content;
+    min-height: 250px;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding:20px;
+    
+}
+
+.description{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    color: rgb(68,68,68);
+}
+
+.reviewsContainer{
+    width:100%;
+}
+
+.reviewHolder{
+    width:100%;
+}
+
+.review{
+    width: 80%;
+    height:max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:10px;
+    margin:0px auto;
+    margin-bottom: 10px;
+
+}
+
+.profileImageContainer{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: rgb(68,68,68,0.1);
+    margin-top: 10px;
+}
+
+.profileImg{
+    width:100%;
+    height:100%;
+    border-radius: inherit;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.reviewDetailContainer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(68,68,68);
+    margin-bottom: 5px;
+}
+
+.customerReviewContainer{
+    width:100%;
+}
+
+.reviewPara{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(68,68,68);
+}
