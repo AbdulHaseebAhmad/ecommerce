@@ -2,10 +2,12 @@ import React from 'react'
 import classes from "../CSS/sectionTwo.module.css";
 import DropDown from "../../ProductPage/Components/DropDown";
 import ProductSpecificationsTable from '../Components/ProductSpecificationsTable';
-
+import DetailsComponent from '../Components/DetailsComponent';
+import  Rating from '@mui/material/Rating';
 export default function SectionTwo({bikeDetails}) {
 
-
+    const {description} = bikeDetails;
+    console.log();
   return (
     <div className={classes.sectionTwoOutterContainer}>
       <div className={classes.contentContainer}>
@@ -14,6 +16,16 @@ export default function SectionTwo({bikeDetails}) {
                 <div className={classes.topLetContainer}>
                     <div className={classes.imgContainer}>
                         <div className={classes.imgHolder} style={{backgroundImage:`url(${bikeDetails.img})`}}></div>
+                    </div>
+                    <div className={classes.slideContainer}>
+                        <div className={classes.slideHolder}>
+                            <div className={classes.slideImg} style={{backgroundImage:`url(${bikeDetails.img})`}}></div>
+                            <div className={classes.slideImg} style={{backgroundImage:`url(${bikeDetails.img})`}}></div>
+                            <div className={classes.slideImg} style={{backgroundImage:`url(${bikeDetails.img})`}}></div>
+                            <div className={classes.slideImg} style={{backgroundImage:`url(${bikeDetails.img})`}}></div>
+                            <div className={classes.slideImg} style={{backgroundImage:`url(${bikeDetails.img})`}}></div>
+
+                        </div>
                     </div>
                 </div>
                 <div className={classes.topRightContainer}>
@@ -24,6 +36,12 @@ export default function SectionTwo({bikeDetails}) {
                             </div>
                             <div className={classes.priceHolder}>
                                 <p className={classes.price}>{bikeDetails.price}</p>
+                            </div>
+                        </div>
+                        <div className={classes.reviewsContainer}>
+                            <div className={classes.reviewsHolder}>
+                                <p className={classes.reviewsPara}>{bikeDetails.reviews.totalReviews} Total Reviews</p>
+                                <Rating readOnly value={bikeDetails.reviews.averageRating}/>
                             </div>
                         </div>
                         <div className={classes.descriptionContainer}>
@@ -50,7 +68,7 @@ export default function SectionTwo({bikeDetails}) {
                                         <DropDown filterName="Color" filterOptions={[bikeDetails.color]} />
                                     </div>
                                     <div className={classes.inputHolder}>
-                                        <input type='number' className={classes.input} placeholder='Qtty'/>
+                                        <input type='number' className={classes.input} placeholder='Qtty' min={0}/>
                                     </div>
                                 </div>
                                 <div className={classes.actionsBottomContainer}>
@@ -61,10 +79,16 @@ export default function SectionTwo({bikeDetails}) {
                             </div>
                         </div>
                         <div className={classes.specificationTableHolder}>
-                            <ProductSpecificationsTable specification={bikeDetails.productSpecifications}/>
+                            <ProductSpecificationsTable specification={bikeDetails.productSpecifications} />
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <div className={classes.centerContentContainer}>
+            <div className={classes.centerContentHolder}>
+                <DetailsComponent description={description} reviews={bikeDetails.reviews} productId={bikeDetails.id}/>
             </div>
         </div>
       </div>
