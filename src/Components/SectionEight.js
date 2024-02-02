@@ -9,8 +9,8 @@ export default function SectionEight() {
         <div className={classes.titleContainer}>
             <div className={classes.titleHolder}>
                 <h3>
-                    <span>FEATURED </span>
-                    PRODUCTS
+                    <span>FROM </span>
+                    BLOG
                 </h3>
             </div>
         </div>
