@@ -7,6 +7,7 @@ import Products, {
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ProductDetails, {loader as productDetailLoader} from "./Pages/ProductDetails";
 import Blogs from "./Pages/Blogs";
+import About from "./Pages/About";
 
 function App() {
   const router = createBrowserRouter([
@@ -32,7 +33,8 @@ function App() {
             }
           ]
         },
-        {path:'blogs',element:<Blogs/>}
+        {path:'/blogs',element:<Blogs/>},
+        {path:'/about-us',element:<About/>}
       ],
     },
   ]);

@@ -1,0 +1,159 @@
+.sectionTwoContainer{
+    width:85%;
+    height:max-content;
+    margin: 70px auto 30px auto;
+}
+
+.sectionTwoContentHolder{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftContainer{
+    width:50%;
+    height:400px;
+}
+
+.leftContentHolder{
+    width:100%;
+    height:100%;
+}
+
+.imgContainer{
+    width:100%;
+    height:100%;
+}
+
+
+
+.imgContainer:hover .imgHolder{
+    background-size: 110%;
+}
+.imgHolder{
+    width: 100%;
+    height:100%;
+    background-image: url('https://template.hasthemes.com/rideo/rideo/img/about/1.jpg');
+    background-size: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding:10px;
+    transition: all 0.7s ease-in-out;
+
+}
+
+.frame{
+    width:100%;
+    height:100%;
+    border:1px solid #fff;
+    transition: all 0.7s ease-in-out;
+}
+.imgContainer:hover .frame{
+    width:80%;
+    height:80%;
+    border: 1px solid #fd7e14;
+    margin:7.5% auto;
+}
+
+
+.rightContainer{
+    width:50%;
+    height: 400px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    
+}
+
+.rightContentHolder{
+    width:100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:30px;
+}
+
+.titleContainer{
+    width:100%;
+    height:max-content;
+}
+
+.titleHolder{
+    width:100%;
+    height:max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.title{
+    margin:0px;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 26px;
+    color:rgb(27, 27, 27);
+}
+
+.title span{
+    color:#fd7e14;
+}
+
+.textContainer{
+    width:100%;
+    height:max-content;
+}
+
+.textHolder{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.paragraph{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgb(68,68,68);
+    margin:0px;
+}
+
+.buttonContainer{
+    width:100%;
+    height:50px;
+}
+
+.buttonHolder{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button{
+    height:100%;
+    width:150px;
+    border:1px solid #777;
+    color:#777;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.button:hover{
+    color:#fff;
+    background-color: #fd7e14;
+    cursor: pointer;
+}

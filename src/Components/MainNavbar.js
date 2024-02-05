@@ -13,8 +13,8 @@ export default function MainNavbar() {
         <div className={classes.navLinksContainer}>
           <a href='/'>HOME</a>
           <a href='/products'>PRODUCTS</a>
-          <a href='/about'>ABOUT</a>
-          <a href='blogs'>BLOG</a>
+          <a href='/about-us'>ABOUT</a>
+          <a href='/blogs'>BLOG</a>
           <a href=''>ACCOUNT</a>
           <a href='pages'>PAGES</a>
           <a href='contact'>CONTACT</a>

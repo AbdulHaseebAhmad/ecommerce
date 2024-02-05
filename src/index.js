@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Store from './store';
 import {Provider} from "react-redux";
+import 'material-icons/iconfont/material-icons.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
