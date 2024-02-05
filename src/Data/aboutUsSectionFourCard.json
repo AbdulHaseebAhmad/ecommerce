@@ -1,0 +1,23 @@
+[
+    {
+        "name":"Alonso",
+        "imgUrl":"https://template.hasthemes.com/rideo/rideo/img/about/2.jpg",
+        "position":"Team Lead"
+    },
+    {
+        "name":"Alfredo",
+        "imgUrl":"https://template.hasthemes.com/rideo/rideo/img/about/3.jpg",
+        "position":"Designer"
+    },
+    {
+        "name":"Emannuel",
+        "imgUrl":"https://template.hasthemes.com/rideo/rideo/img/about/4.jpg",
+        "position":"R&D"
+    },
+    {
+        "name":"Piyush",
+        "imgUrl":"https://template.hasthemes.com/rideo/rideo/img/about/5.jpg",
+        "position":"Manager"
+    }
+
+]

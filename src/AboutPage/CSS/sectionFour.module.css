@@ -1,0 +1,179 @@
+.sectionFourContainer{
+    margin: 20px 0px 50px 0px;
+    height: max-content;
+    width:100%;
+}
+
+.sectionFourContentHolder{
+    width: 100%;
+    height: 100%;   
+}
+
+.titleContainer{
+    height:max-content;
+}
+
+.titleHolder{
+    width:100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    color:rgb(27, 27, 27);
+    letter-spacing: 1.2px;
+}
+
+.title span{
+    color:#fd7e14;
+}
+
+.titleDecortationHolder{
+    width:100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+
+.titleDecortationHolder hr{
+    width:50px;
+    height:0px;
+    border: 0.1px solid #777;
+    margin: 0px;
+
+}
+
+.iconContainer{
+    width:max-content;
+    margin:0px;
+}
+
+.cardsContainer{
+    width:100%;
+    height: max-content;
+}
+
+.cardsHolder{
+    width: 85%;
+    margin:50px auto;
+    height: max-content;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.sectionFourCard{
+    width:262px;
+    height:380px;
+}
+
+.sectionFourCardHolder{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.cardImgContainer{
+    width:100%;
+    height:90%;
+}
+
+.cardImgHolder{
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+}
+
+.overLay{
+    width:100%;
+    height:100%;
+    display: none;
+    transition: all 0.7s ease-in-out;
+    background-color:rgb(68,68,68,0.6);
+   
+}
+
+.socialIconContainer{
+    transition: all 0.7s ease-in-out;
+    display: none;
+    width:100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+
+.socialIconHolder{
+    width:100%;
+    height:max-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.socialIconContainer a{
+    text-decoration: none;
+    color:white;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+}
+
+.socialIconContainer a:hover{
+    color:white;
+    background-color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardTextContainer{
+    width:100%;
+    height:20%;
+}
+
+.cardTextHolder{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.name{
+    margin:0px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    color:rgb(85,85,85);
+}
+
+.position{
+    margin:0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color:rgb(68,68,68);
+}
+
+
+.sectionFourCard:hover .overLay, .sectionFourCard:hover .socialIconContainer{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
