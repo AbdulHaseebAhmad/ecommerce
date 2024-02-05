@@ -1,5 +1,5 @@
 .sectionThreeContainer{
-    margin: 50px 0px 50px 0px;
+    margin: 80px 0px 50px 0px;
     height: max-content;
     width:100%;
 }
@@ -76,18 +76,18 @@
 }
 
 .cardsHolder{
-    width: 90%;
+    width: 85%;
     margin:50px auto;
     height: max-content;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    place-items: center;
     gap:20px 0px;
 }
 
 .sectionThreeCard{
     width:300px;
     height:300px;
-    border:1px solid pink;
 }
 
 .cardContetnContainer{
@@ -98,4 +98,33 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap:20px;
+}
+
+.imgContainer, .cardTitleContainer, .cardTextContainer{
+    width:100%;
+    height:max-content;
+}
+
+.imgHolder, .cardTitleHolder, .cardTextHolder{
+    width:100%;
+    height:max-content;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cardTitle{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(85,85,85);
+    letter-spacing: 1px;
+}
+
+.cardPrara{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color:rgb(68,68,68);
 }
